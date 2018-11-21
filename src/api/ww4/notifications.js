@@ -1,0 +1,38 @@
+export default (uid, markAsRead, fileExtension = '') => ({
+  method: 'get',
+  relative_url: `/notifications/${uid}`,
+  query: {
+    type: 'alert',
+    include_declined: 'N',
+    mark_as_viewed: markAsRead ? 'Y' : 'N',
+    sent_at: new Date() / 1,
+    fieldset: 'unviewed_count,total_count,notifications',
+    profile_options: {
+      fieldset: [
+        'account',
+        'basic',
+        'lifestyle',
+        'health_info',
+        'appearance',
+        'family',
+        'trait',
+        'origin',
+        'doctrine',
+        'account',
+        'location',
+        'profession',
+        'education',
+        'interests_and_more',
+      ],
+    },
+    photo_options: {
+      fieldset: ['count', 'photos'],
+      profile_photo: true,
+      size: ['small', 'medium', 'semilarge', '120X120', '450X600', '250X310'],
+      blur: true,
+      thumb_param: '_nb',
+      file_extension: fileExtension,
+    },
+    limit_per_page: 20,
+  },
+});

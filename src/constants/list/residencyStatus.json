@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Citizen",
+    "text": "Citizen"
+  },
+  {
+    "id": "Permanent Resident",
+    "text": "Permanent Resident"
+  },
+  {
+    "id": "Student Visa",
+    "text": "Student Visa"
+  },
+  {
+    "id": "Temporary Visa",
+    "text": "Temporary Visa"
+  },
+  {
+    "id": "Work Permit",
+    "text": "Work Permit"
+  }
+]

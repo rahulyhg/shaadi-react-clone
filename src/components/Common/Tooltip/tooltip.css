@@ -1,0 +1,236 @@
+.rc-tooltip {
+  z-index: 11;
+}
+
+.rc-tooltip-inner {
+  display: block;
+  border: 2px solid #fff;
+  padding: 9px 18px 9px 9px;
+  width: 222px;
+  height: 13px;
+  box-shadow: 0 4px 12px rgba(43,59,93,0.35);
+  background: #fff;
+  min-height: auto;
+  color: #333;
+  font: normal 12px/13px arial;
+  color: #72727d;
+}
+
+.photoTooltip .rc-tooltip-inner {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(43,59,93,0.35);
+  height: auto;
+  padding: 10px;
+}
+
+.photoTooltip {
+  opacity: 1;
+}
+
+.photoTooltip .rc-tooltip-arrow {
+  left: 20px;
+  right: auto;
+}
+
+.listStyleTooltip .rc-tooltip-inner {
+  border-radius: 0;
+}
+
+.listStyleTooltip .rc-tooltip-arrow {
+  left: auto;
+  right: 65px;
+}
+
+.connectTooltip {
+  opacity: 1;
+}
+
+.connectTooltip.listViewTooltip{
+  z-index: 1;
+}
+
+.connectTooltip .rc-tooltip-inner {
+  width: 236px;
+  height: auto;
+  border-radius: 3px!important;
+}
+
+.emailTooltip .rc-tooltip-inner {
+  width: 300px;
+}
+
+.readMore .rc-tooltip-inner {
+  width: 368px !important;
+}
+.benefitTooltip, .nameUpgradeTooltip, .exclusiveTooltip,.exclusiveTooltipTop, .withBorder {
+  opacity: 1;
+}
+
+.benefitTooltip .rc-tooltip-arrow, .withBorder .rc-tooltip-arrow {
+  left: 30px;
+  right: auto;
+}
+
+.nameUpgradeTooltip .rc-tooltip-arrow{
+ left: 4px;
+ right: auto;
+ top: 26px;
+ border-right-color: #fff;
+}
+
+.benefitUpgradeBtn, .nameUpgradeBtn {
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  font: bold 14px arial;
+  padding: 6px 5px 6px 10px;
+  color: #fff !important;
+  background: #00bcd5;
+  border: 1px solid #00bcd5;
+  border-radius: 3px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+
+.benefitUpgradeBtn:hover {
+  text-decoration: none !important;
+  background: #0194a8;
+  border: 1px solid #0194a8;
+}
+
+.nameUpgradeBtn:hover{
+  text-decoration: none !important;
+  background: #0194a8;
+  border: 1px solid #0194a8;
+}
+
+.benefitTooltip .rc-tooltip-inner, .nameUpgradeTooltip .rc-tooltip-inner, .withBorder .rc-tooltip-inner {
+  width: 228px;
+  height: auto;
+  border-radius: 0;
+}
+
+.benefitTooltip .rc-tooltip-inner p, .nameUpgradeTooltip .rc-tooltip-inner p  {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.rc-tooltip-arrow {
+  border-bottom-color: #fff !important;
+}
+
+.rc-tooltip-dark-invite .rc-tooltip-inner,
+.rc-tooltip-dark .rc-tooltip-inner, .rc-tooltip-placement-left .rc-tooltip-inner, 
+.tooltip-features .rc-tooltip-inner {
+  width: 175px;
+  height: auto;
+  padding: 8px;
+  border-radius: 3px;
+  background: #363636;
+  border-color: #363636;
+  color: #fff;
+  font: 400 12px 'Roboto',sans-serif;
+}
+
+.tooltip-features .rc-tooltip-inner{
+  width: 270px;
+}
+.rc-tooltip-dark-invite .rc-tooltip-inner {
+  width: 190px;
+}
+
+.rc-tooltip-dark-invite .rc-tooltip-arrow,
+.rc-tooltip-dark .rc-tooltip-arrow,
+.tooltip-features .rc-tooltip-arrow {
+  border-bottom-color: #363636 !important;
+}
+
+.rc-tooltip-no-arrow .rc-tooltip-arrow{
+  display: none;
+}
+
+.rc-tooltip-placement-left .rc-tooltip-arrow{
+  right: 4px;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #373737;
+  border-bottom-color: #fff !important;
+}
+
+.withBorder .rc-tooltip-inner{
+  width: auto;
+  max-width: 300px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #cdced1;
+}
+.withBorder .rc-tooltip-arrow{
+  background: url(/assets/draft-message-arrow.svg) left top no-repeat;
+  width: 17px;
+  height: 17px;
+  border: 0;
+  top: -2px;
+}
+
+.withBorder p {
+  margin: 0 !important;
+}
+
+.crown-tooltip .rc-tooltip-inner{
+  width: 60px;
+  max-width: 100px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #cdced1;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+.crown-tooltip .rc-tooltip-arrow{
+  left: 12px;
+}
+
+.exclusiveTooltip .rc-tooltip-inner{
+  width: 160px;
+  height: auto;
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0 4px 27px 2px rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 3px 7px;  
+  margin-top: 5px;
+}
+
+.exclusiveTooltip .rc-tooltip-inner p  {
+ font: 400 12px/18px 'Roboto',sans-serif;
+ margin: 0;
+ padding:3px;
+}
+
+.exclusiveTooltipTop .rc-tooltip-inner{
+  width: 160px;
+  height: auto;
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0 4px 27px 2px rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 3px 7px;
+}
+
+.exclusiveTooltipTop .rc-tooltip-inner p  {
+ font: 400 12px/18px 'Roboto',sans-serif;
+ margin: 0;
+ padding:3px;
+}
+
+.exclusiveTooltipTop .rc-tooltip-arrow{
+  bottom: 4px;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #fff;
+}
+
+.exclusiveTooltip .rc-tooltip-arrow{
+  margin-top: 5px; 
+}
+

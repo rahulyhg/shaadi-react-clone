@@ -1,0 +1,22 @@
+[
+  {
+    "value": "Private Company",
+    "label": "Private Company"
+  },
+  {
+    "value": "Government / Public Sector",
+    "label": "Government / Public Sector"
+  },
+  {
+    "value": "Defense / Civil Services",
+    "label": "Defense / Civil Services"
+  },
+  {
+    "value": "Business / Self Employed",
+    "label": "Business / Self Employed"
+  },
+  {
+    "value": "Not Working",
+    "label": "Not Working"
+  }
+]

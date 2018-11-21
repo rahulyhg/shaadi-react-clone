@@ -1,0 +1,24 @@
+version: 0.1
+   
+phases:
+  build:
+    commands:
+      - python --version
+      - node --version
+      - yarn --version
+      - npm --version
+      - yarn
+      - yarn cache dir
+      - echo " Lint"
+      - yarn lint
+#      - echo " Test "
+#      - yarn test 
+      - echo "Building the Code"
+      - yarn build 
+      - echo "******** Backing Up ********"
+      - aws s3 sync s3://my-shaadi-com/ s3://backup-my-shaadi-com/
+      - echo "******** Uploading  ********"
+      - aws s3 sync build s3://my-shaadi-com --exclude "index.html"
+#      - sleep 10m
+      - aws s3 sync build s3://my-shaadi-com --exclude "*" --include "index.html"
+#     - ignore this line 

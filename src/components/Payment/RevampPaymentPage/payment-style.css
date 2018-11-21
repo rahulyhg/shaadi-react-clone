@@ -1,0 +1,678 @@
+/* Reset for payment css ST */
+
+
+input[type="radio"] {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;	
+
+}
+input[type='radio'] {
+        -webkit-appearance: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        outline: none;
+        border: 1px solid #00bcd5;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    input[type='radio']:before {
+        content: '';
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 20% 24%;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
+    input[type='radio']:checked:before {
+        background: #00bcd5;
+    }
+/* Reset for payment css ED */
+
+.main_wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.top_bg {
+	height: 232px;
+	background: #39b9c4;
+	background: linear-gradient(to right, #39b9c4 0%, #42bbb7 17%, #6ec382 77%, #7cc671 100%);
+	margin: -44px 0 0;
+}
+.offer_wrapper {
+	text-align: center;
+	font: 300 20px 'Roboto', sans-serif;
+	color: #fff;
+	height: 68px;
+	line-height:68px;
+	width: 1200px;
+	margin: 3px auto 0;
+	position: relative;
+}
+.font_24 {
+	font: 400 24px 'Roboto', sans-serif;
+}
+.font_bold{
+  font: 500 24px 'Roboto',sans-serif;
+}
+
+.thumbnail_border {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #fff;
+	z-index: 3;
+}
+.multi_profilepic {
+	margin: 0 0 0 -10px;
+	z-index: 2;
+}
+.multi_profiletwo {
+	margin: 0 0 0 -10px;
+	z-index: 1;
+}
+.multi_profilepic_bg {
+	margin: 0 0 0 -10px;    
+	background: #fff;
+	color: #00bcd5;   
+	width: 40px;
+	height: 40px;
+	z-index: 0;
+}
+.more_profile_pics {
+	display: block;
+	font: 500 16px/40px 'Roboto', sans-serif;	
+	padding: 0 0 0 4px;
+}
+.profile_pic_container {   
+	border-radius:40px;
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.thumbnail_wrapper{
+	padding: 0 0 0 15px;
+	display: inline-block;
+}
+
+.display_flex{
+	display:flex; 
+}
+.display_flex li {
+	color:#72727d;
+	font-weight:300;
+}
+.plan_feature_text{
+	border-right:1px solid #dfe0e3;
+	padding:30px 0 0 0;	
+	font: 400 15px 'Roboto', sans-serif;	
+	color:#72727d;
+	text-align: center;
+	width: 300px;
+	box-sizing: border-box;
+}
+
+
+.match_guarantee_wrapper{
+	color: #51505d;
+	font: 300 14px 'Roboto', sans-serif;
+	height: 105px;
+	padding: 10px 0 0;
+}
+.plan_container{
+	height: 118px;
+	color: #51505d;
+}
+
+.payment_card{
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	background-color: #fff;
+	margin: -139px auto 0;
+	width: 1200px;
+	display: flex;
+}
+.matchguarantee_icon {
+	background: url(https://img2.shaadi.com/assests/2018/payment/payment-revamp.png) no-repeat left top;
+	width: 64px;
+	height: 53px;
+	display: inline-block;
+}
+.month_text, .month_text_small {
+	color: #72727d;
+	font: 400 16px 'Roboto', sans-serif;
+}
+.month_text_small {
+	font: 300 12px 'Roboto', sans-serif;
+}
+.membership_name {
+	font: 400 18px 'Roboto', sans-serif;
+}
+.membership_prize {
+	font: 700 24px 'Roboto', sans-serif;
+	color: #51505d;		
+	padding: 3px 0;
+}
+.discount_text {
+	color: #0ed279;
+	font: 700 14px 'Roboto', sans-serif;
+}
+.strike_price {
+	background: url(https://img2.shaadi.com/assests/2018/payment/strikethrough.png) no-repeat left center;
+	font: 300 14px 'Roboto', sans-serif;
+	color: #51505d; 
+}
+.tick_icon, .message_icon, .call_icon, .match_highlight_icon, .make_contact_icon, .emi_icon, .duration_icon {
+	background-image: url(https://img2.shaadi.com/assests/2018/payment/payment-revamp.png);
+	background-repeat: no-repeat;
+	background-position: left -108px;
+	width: 24px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+}
+.message_icon {
+	background-position: -66px top;
+	width: 24px;
+	height: 21px;
+}
+.call_icon {
+	background-position: -97px top;
+	width: 21px;
+	height: 21px;
+}
+.match_highlight_icon {
+	background-position: -125px top;
+	width: 23px;
+	height: 21px;
+}
+.make_contact_icon {
+	background-position: -152px top;
+	width: 20px;
+	height: 15px;
+}
+.emi_icon {
+	background-position: -67px -27px;
+	width: 21px;
+	height: 21px;
+}
+.duration_icon {
+	background-position: -180px -179px;
+	width: 19px;
+	height: 20px;
+}
+.relation_advisor_icon, .handpicked_matche_icon, .intro_meeting_icon, .premium_benefit_icon {
+	background-image: url(https://img2.shaadi.com/assests/2018/payment/payment-revamp.png);
+	background-repeat: no-repeat;
+	background-position: left -139px;
+	width: 33px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 0 15px;
+}
+.handpicked_matche_icon{
+	background-position: -152px -19px;
+	width: 40px;
+}
+.intro_meeting_icon{
+	background-position: -88px -139px;
+	width: 45px;
+}
+.premium_benefit_icon{
+	background-position: -46px -139px;
+	width: 34px;
+}
+.tick_bg, .features_text_bg, .view_count, .features_text {
+	height: 50px;
+	font: 400 14px 'Roboto', sans-serif;
+	color: #72727d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button_bg {
+	height: 70px;	
+	color: #72727d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.features_text {
+	padding: 0 0 0 22px;
+	justify-content: flex-start;
+}
+.tick_bg {
+	background: #f8f6f6;
+}
+.features_text_bg {
+	background: #f8f6f6;
+	padding: 0 0 0 22px;
+	justify-content: flex-start;
+}
+
+@keyframes bounce {
+  0% { transform: scale(1.2)}
+  100% { transform: scale(1.1), translate3d(0,0,0) }
+}
+.plan_wrapper_selected {	
+	box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.26);
+	border-radius: 6px;
+	background-color: #fff;	
+	transform: scaleX(1.1) scaleY(1.1);
+	transform-origin: center center;
+	padding: 42px 0 15px;  
+	animation: bounce .3s;   	
+	margin: -32px 0 0;	
+}
+
+.plan_wrapper_selected .plan_container, .plan_wrapper_selected .button_bg, .plan_wrapper_selected .tick_bg, .plan_wrapper_selected .view_count, .plan_wrapper_selected .tick_icon {
+	transform: scaleX(0.91) scaleY(0.91);
+
+}
+.select_wrapper{	
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	text-align: center;
+	background: #fff;
+	margin: 30px 0 0;
+	padding: 0 0 28px;
+}
+
+.spacer_10{
+	padding: 10px;
+}
+.disable_btn{
+	width: 136px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 54px;
+	border: 1px solid #00bcd5;
+	background: #fff;
+	color: #00bcd5;
+	font: 500 14px 'Roboto', sans-serif;
+}
+.disable_btn a{
+    position: relative;
+    z-index: 1;
+	color: #00bcd5;
+	width: 136px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 54px;
+	display: inline-block;
+	line-height: 36px;
+	text-decoration: none;
+}
+.disable_btn:before {
+    opacity: 0;
+}
+.continue_btn{
+	width: 136px;
+	height: 36px;	
+	box-shadow: 0 4px 10px rgba(0, 188, 213, 0.4);
+	border-radius: 54px;
+	background-image: linear-gradient(180deg, #60ced4 0%, #00bcd5 100%);
+	color: #fff;
+	font: 500 14px/36px 'Roboto', sans-serif;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+.continue_btn:hover {
+	box-shadow: 0 5px 8px rgba(11, 226, 255, 0.6);
+	border-radius: 54px;
+	background-image: linear-gradient(180deg, #5bd1d8 0%, #04c4de 100%);
+}
+.continue_btn:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 136px;
+	height: 36px;	
+	box-shadow: 0 4px 10px rgba(0, 188, 213, 0.4);
+	border-radius: 54px;
+	background-image: linear-gradient(180deg, #60ced4 0%, #00bcd5 100%);
+	color: #fff;
+	font: 500 14px/36px 'Roboto', sans-serif;
+	display: inline-block;
+	transition: opacity .35s ease-in-out;
+}
+.continue_btn a{
+    position: relative;
+    z-index: 1;
+	color: #fff;
+	width: 136px;
+	height: 36px;	
+	border-radius: 54px;
+	display: inline-block;
+	line-height: 36px;
+	text-decoration: none;
+}
+.continue_btn:before {
+    opacity: 0;
+}
+.personalised_heading{
+	font: 300 26px 'Roboto', sans-serif;
+	padding: 65px 0 15px; 
+	text-align: center;
+}
+.personalised_plan_header {
+	color: #51505d;
+	width: 600px;
+	margin: 0 auto;
+}
+.select_features {
+	width: 830px;
+	margin: 55px auto 30px;
+	border-bottom: 1px solid #dfe0e3;
+	display: flex;
+	padding: 0 10px;
+}
+.select_features_inner {
+	font: 300 16px 'Roboto', sans-serif;
+	color: #51505d;
+	margin: 0 50px 0 0;
+	white-space: nowrap;
+	padding: 0 0 9px;
+}
+.personalised_hide{
+	width: 850px;
+	margin: 0 auto;
+	padding: 10px 0 0;	
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 2000ms ease-in-out;
+	height: 320px;
+
+}
+.select_features_inner:last-child{
+	margin: 0;
+}
+.selectshaadi_logo {
+	background: url(https://img2.shaadi.com/assests/2018/payment/payment-revamp.png) no-repeat -51px -106px;
+	width: 145px;
+	height: 23px;
+	display: inline-block;	
+}
+.view_plans{
+	color: #00bcd5;
+	font: 300 18px 'Roboto', sans-serif;
+	padding: 5px 0;
+	display: inline-block;
+	cursor: pointer;
+}
+.view_plans:hover{
+	text-decoration: underline;
+}
+.down_arrow {
+	background: url(https://img2.shaadi.com/assests/2018/payment/payment-revamp.png) no-repeat -133px -27px;
+	width: 12px;
+	height: 9px;
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+.select_plan_bg, .select_plan {
+	width: 290px;
+	height: 100px;
+	border-radius: 6px;
+	border: 1px solid #c2aacd;
+	background-image: linear-gradient(156deg, rgba(224, 203, 233, 0.25) 0%, rgba(113, 19, 158, 0.25) 100%);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	cursor: pointer;
+	transition: all 300ms ease;	
+	white-space: nowrap;
+}
+.select_plan {	
+	border: 1px solid #f0eaf3;	
+	background: #fff;
+	transition: all 300ms ease;	
+}
+.select_plan:hover {	
+	border: 1px solid #f0eaf3;
+    background-image: linear-gradient(156deg, #fdfbfd 0%, #f8f2fa 100%);  
+    transition: all 300ms ease;	  
+}
+.select_plan_wrapper{
+	display: flex;
+	justify-content: space-between;
+	color: #51505d;	
+}
+.golden_bg {
+	height: 8px;
+	border-radius: 5px 5px 0 0;
+	background-image: linear-gradient(199deg, #fff080 0%, #ba8e00 5%, #fff3a8 20%, #c29a47 30%, #f4ea9e 51%, #e7d588 56%, #d9bf71 64%, #d4b768 69%, #fff3a8 77%, #c29a00 92%, #fff3a8 100%);
+}
+.select_price{
+	font: 500 30px 'Roboto', sans-serif;	
+}
+.select_month{
+	font: 300 18px/21px 'Roboto', sans-serif;	
+}
+.select_per_month{
+	font: 300 16px/19px 'Roboto', sans-serif;	
+	padding: 5px 0 0;
+}
+
+.personalised_btn{
+	width: 175px;
+	height: 40px;
+	display: inline-block;	
+	font: 400 14px 'Roboto',sans-serif;	
+	box-shadow: 0 3px 6px rgba(77, 64, 64, 0.19);
+	border-radius: 17px;
+	background-image: linear-gradient(199deg, #fff080 0%, #ba8e00 5%, #fff3a8 20%, #c29a47 30%, #f4ea9e 51%, #e7d588 56%, #d9bf71 64%, #d4b768 69%, #fff3a8 77%, #c29a00 92%, #fff3a8 100%);
+	position: relative;
+}
+.personalised_btn_inner{  
+	color: #bb9237;
+	line-height: 36px;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 171px;
+	height: 36px;
+	border-radius: 17px;
+	transition: all 300ms ease;
+	outline: 0;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	background: #fff;
+}
+.relative{
+	position: relative;
+}
+
+.best_value{
+	border-radius: 2px;
+	border: 1px solid #ff8b8f;	
+	font: 500 10px 'Roboto', sans-serif;
+	color: #ff5a60;
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 1px 3px;
+}
+
+
+@keyframes bounceScroll{
+	0% {
+	bottom:15px;
+	}
+	35% {
+	bottom:35px;
+	}
+	65% {
+	bottom:35px;
+	}
+	100% {
+	bottom:15px;
+	}
+}
+
+.bounce_arrow{
+	width: 52px;
+	height: 52px;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.24), 0 0 6px rgba(0, 0, 0, 0.12);
+	background-color: #ffffff;
+	border-radius: 56px;
+	animation:bounceScroll 1.5s infinite;	
+	position: fixed;
+    left: 3%;
+}
+.bounce_arrow_icon {
+	background-image: url(https://img2.shaadi.com/assests/2018/payment/payment-revamp.png);
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 21px;
+	display: inline-block;
+	background-position: -32px -107px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.plan_wrapper{
+	box-sizing: border-box;
+	width:180px;
+	vertical-align:middle;
+	border-right:1px solid #dfe0e3;
+	text-align:center;
+	padding: 27px 0 0;
+	cursor: pointer;
+	height: 464px;	
+	transition: all 300ms ease;	
+}
+.plan_wrapper:last-child{
+	border-right: none;
+}
+.plan_wrapper:hover{
+	 background: rgba(0, 188, 213, 0.1); 	 
+}
+.plan_wrapper:hover .tick_bg {
+	background: #e0f0f2;
+	transition: all 300ms ease;
+ }
+.plan_wrapper_selected .tick_bg {
+	background: #fff;
+	margin: -7px 0 0;
+
+}
+.plan_wrapper:hover .plan_wrapper_selected .tick_bg {
+	background: #fff;
+	transition: all 300ms ease;
+ }
+ .justforu_icon, .birthday_icon {
+  background-image: url(https://img2.shaadi.com/assests/2018/payment/payment-revamp.png);
+  background-repeat: no-repeat;
+  background-position: -23px -64px;
+  width: 73px;
+  height: 35px;
+  display: inline-block;
+  vertical-align:top;
+  margin: 10px 10px 0 0;
+}
+
+.birthday_icon {
+  background-position: -111px -63px; 
+  width: 33px;
+  height: 36px;
+}
+
+.radio_spacer{		
+	padding: 5px 0 0;
+}
+
+.success_story_wrapper{
+	width: 940px;
+	margin: 20px auto;
+	text-align: left;
+}
+.spacer_20 {
+	padding: 20px;
+}
+.display_off {
+	display: none;
+}
+.display_on {
+	max-height: 320px;
+}
+.display_bounce_off {
+	display: none;
+}
+.error_message {
+	background: rgba(254, 198, 200, 0.37);
+	font: 400 16px 'Roboto',sans-serif;
+	color: #e53a41;
+	text-align: center;
+	position: absolute;
+	top: -45px;	
+	width: 100%;
+    line-height: 50px;    
+}
+
+@keyframes slide {
+	0% {
+	height: 0;
+	line-height: 0; 
+	transition: 1s linear; 
+	opacity: 0; 
+	}	
+	100% {
+	height: 50px;
+	line-height: 50px; 
+	transition: 0.2s linear; 
+	opacity: 1; 
+	}
+}
+.error_wrapper {
+	position: relative;
+	animation: slide 0.2s linear;
+	height: 50px;
+}
+
+.error_wrapper_slide {	
+	animation: slide 0.2s linear;
+}
+
+.skip_wrapper{
+	padding: 30px 0 0;
+	text-align: center
+}
+.skip_btn{	
+	color: #fff;
+	font: 400 14px 'Roboto', sans-serif;	
+	cursor: pointer;
+	position: absolute;	
+	top: 25px;
+	right: 10px;	
+	opacity: 0.7;
+}
+.view_contact_text{
+	color: #a7a7a9;
+	font: 400 11px 'Roboto', sans-serif;
+	padding: 5px 0 0;
+	visibility: hidden;
+}
+.main_container {
+	
+}

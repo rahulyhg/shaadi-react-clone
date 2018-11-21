@@ -1,0 +1,721 @@
+const items = [
+  {
+    isRead: false,
+    message: 'has sent you an invitation to connect. He has been filtered by you.',
+    profile: {
+      se: '17c2be1c3ec417ba225f2e551f61e9ca',
+      uid: 'fSH31712163',
+      name: 'John Jeet',
+      slug: 'fSH31712163',
+      thumbnail: 'https://img1.shaadi.com//2014/03/15/fSH31712163-8428ef.jpg',
+      photo: 'https://img1.shaadi.com//2014/03/15/fSH31712163-003e36.jpg',
+      fullPhoto: 'https://img1.shaadi.com//2014/03/15/fSH31712163-13f611.jpg',
+      thumbnailBlur: 'https://img1.shaadi.com//2014/03/15/fSH31712163-8428ef.jpg',
+      photoBlur: 'https://img1.shaadi.com//2014/03/15/fSH31712163-003e36.jpg',
+      fullPhotoBlur: 'https://img1.shaadi.com//2014/03/15/fSH31712163-13f611.jpg',
+      userHandle: 'SH31712163',
+      gender: 'Male',
+      marital_status: 'Never Married',
+      connectMessages: [],
+      contact: {},
+      horoscopeScore: {},
+      flags: {
+        membershipLevel: 'Free',
+        membershipTags: 'free',
+        isBoldListing: false,
+        isDeleted: false,
+        connectionStatus: 'hidden',
+        connectionAction: 'member_hidden',
+        connectionNote: null,
+        contactStatus: null,
+        contactAction: null,
+        horoscopeStatus: null,
+        horoscopeStyle: 'l/ENG/hs/1',
+        albumStatus: 'default',
+        isWatermarked: true,
+        isTwoWayMatch: false,
+        activeStatus: 'default',
+        isNri: false,
+        isIndianDiaspora: true,
+        isHoroscopeApplicable: false,
+        isFamilyGamified: false,
+        isAstroReady: false,
+        isSameGender: false,
+        canCancelInvite: false,
+        canRemind: false,
+        canUnblock: false,
+        isHidden: false,
+        isBothPartyPayUser: false,
+        isNameLocked: false,
+        isFiltered: false,
+        isSkipped: false,
+        isProfileViewed: false,
+      },
+      base: {
+        infoMap: [
+          {
+            key: 'info-0',
+            label: 'Age / Height',
+            value: '33, 5\' 8"',
+          },
+          {
+            key: 'info-1',
+            label: 'Religion/Community',
+            value: 'Christian, Church of North India (CNI)',
+          },
+          {
+            key: 'info-2',
+            label: 'Mother Tounge',
+            value: 'English',
+          },
+          {
+            key: 'info-3',
+            label: 'Profession',
+            value: 'Training Professional (Others)',
+          },
+          {
+            key: 'info-4',
+            label: 'Location',
+            value: 'Bhubaneswar, India',
+          },
+        ],
+        infoList: [
+          {
+            key: 'age-height',
+            value: '33 yrs, 5\' 8", Christian, English',
+          },
+          {
+            key: 'profession',
+            value: 'Training Professional (Others)',
+          },
+          {
+            key: 'location',
+            value: 'Lives in Bhubaneswar, India',
+          },
+          {
+            key: 'grew up in',
+            value: 'Grew up in India',
+          },
+        ],
+        miniNriList: [
+          {
+            key: 'age-height',
+            value: '33 yrs, 5\' 8", Christian, English',
+          },
+          {
+            key: 'grew up in',
+            value: 'Grew up in India',
+          },
+          {
+            key: 'location',
+            value: 'Lives in Bhubaneswar, India',
+          },
+        ],
+        miniList: [
+          {
+            key: 'age-height',
+            value: '33 yrs, 5\' 8", Christian, English',
+          },
+          {
+            key: 'religion-caste',
+            value: 'Church of North India (CNI)',
+          },
+          {
+            key: 'location',
+            value: 'Lives in Bhubaneswar, India',
+          },
+        ],
+        detailList: [
+          {
+            key: 'age-height',
+            value: '33, 5\' 8"',
+          },
+          {
+            key: 'religion-caste',
+            value: 'Christian, Church of North India (CNI)',
+          },
+          {
+            key: 'profession',
+            value: 'Training Professional (Others)',
+          },
+          {
+            key: 'location',
+            value: 'Bhubaneswar, India',
+          },
+        ],
+        premiumInfo: [
+          {
+            key: 'age-height',
+            value: '33 yrs, 5\' 8", Christian, English',
+          },
+          {
+            key: 'location',
+            value: 'Bhubaneswar, India',
+          },
+        ],
+      },
+      presence: null,
+      summary: {
+        shortBio: 'As a person, i am trustworthy,gentle ',
+        createdBy: 'Self',
+        profileCreatedBy: 'Self',
+        shortlistCount: -1,
+        infoMap: [
+          {
+            key: 'age_height',
+            label: 'Age / Height',
+            value: '33, 5\' 8"',
+          },
+          {
+            key: 'religion',
+            label: 'Religion',
+            value: 'Christian',
+          },
+          {
+            key: 'mother_tongue',
+            label: 'Mother Tongue',
+            value: 'English',
+          },
+          {
+            key: 'community',
+            label: 'Community',
+            value: 'Church of North India (CNI)',
+          },
+          {
+            key: 'location',
+            label: 'Location',
+            value: 'Bhubaneswar, India',
+          },
+          {
+            key: 'education',
+            label: 'Education',
+            value: 'Masters - Management',
+          },
+          {
+            key: 'profession',
+            label: 'Profession',
+            value: 'Training Professional (Others)',
+          },
+        ],
+        infoMapNonIndian: [
+          {
+            key: 'age_height',
+            label: 'Age / Height',
+            value: '33, 5\' 8"',
+          },
+          {
+            key: 'religion',
+            label: 'Religion',
+            value: 'Christian',
+          },
+          {
+            key: 'mother_tongue',
+            label: 'Mother Tongue',
+            value: 'English',
+          },
+          {
+            key: 'location_nri_info',
+            label: 'Location',
+            value: 'Bhubaneswar,Orissa, India',
+          },
+          {
+            key: 'info-6',
+            label: 'Grew up in',
+            value: 'India',
+          },
+          {
+            key: 'education',
+            label: 'Education',
+            value: 'Masters - Management',
+          },
+          {
+            key: 'profession',
+            label: 'Profession',
+            value: 'Training Professional (Others)',
+          },
+        ],
+        infoMapIndian: [
+          {
+            key: 'age_height_list',
+            label: 'Age / Height',
+            value: '33 yrs, 5\' 8"',
+          },
+          {
+            key: 'marital_status',
+            label: 'Marital Status',
+            value: 'Never Married',
+          },
+          {
+            key: 'religion_caste_list',
+            label: 'Religion',
+            value: 'Christian, Church of North India (CNI)',
+          },
+          {
+            key: 'location',
+            label: 'Location',
+            value: 'Bhubaneswar, India',
+          },
+          {
+            key: 'mother_tongue',
+            label: 'Mother Tongue',
+            value: 'English',
+          },
+          {
+            key: 'profession',
+            label: 'Profession',
+            value: 'Training Professional (Others)',
+          },
+        ],
+        infoMapNri: [
+          {
+            key: 'age_height_list',
+            label: 'Age / Height',
+            value: '33 yrs, 5\' 8"',
+          },
+          {
+            key: 'profession',
+            label: 'Profession',
+            value: 'Training Professional (Others)',
+          },
+          {
+            key: 'religion_mother_tongue_list',
+            label: 'Mother Tongue',
+            value: 'Christian, English',
+          },
+          {
+            key: 'location_nri_info_list',
+            label: 'Location',
+            value: 'Lives in Bhubaneswar,Orissa, India',
+          },
+          {
+            key: 'education',
+            label: 'Education',
+            value: 'Masters - Management',
+          },
+          {
+            key: 'grew_up_in_info',
+            label: 'Grew up in',
+            value: 'Grew up in India',
+          },
+        ],
+      },
+      detailed: null,
+      tempId: '',
+      fullName: 'john jeet',
+      firstName: 'john',
+      lastName: 'jeet',
+      location: 'Bhubaneswar, India',
+      photos: {
+        count: 3,
+        photos: [
+          {
+            domain_name: 'https://img1.shaadi.com',
+            small: '/2014/03/15/fSH31712163-8428ef.jpg',
+            medium: '/2014/03/15/fSH31712163-003e36.jpg',
+            semilarge: '/2014/03/15/fSH31712163-13f611.jpg',
+            status: 'Y',
+            photo_order: 0,
+            profile_photo: true,
+            '120X120': null,
+            '250X310': null,
+            '450X600': null,
+            small_nb: '/2014/03/15/fSH31712163-8428ef.jpg',
+            domain_name_nb: 'https://img1.shaadi.com',
+            medium_nb: '/2014/03/15/fSH31712163-003e36.jpg',
+            semilarge_nb: '/2014/03/15/fSH31712163-13f611.jpg',
+            '120X120_nb': null,
+            '250X310_nb': null,
+            '450X600_nb': null,
+            isProfilePhoto: true,
+            isPhotoScreened: true,
+            isPhotoUnderScreening: false,
+            isProfilePhotoScreened: true,
+            isPhotoRejected: false,
+            canMakeProfilePhoto: false,
+            canShowPhotoOpts: true,
+            isGroupPhoto: false,
+            isPhotoOptsOpen: false,
+            getPhotoName: 'Profile Photo',
+            getUrlForAlbumPage: 'https://img1.shaadi.com/2014/03/15/fSH31712163-003e36.jpg',
+          },
+        ],
+        status: 'show_photo',
+      },
+      request: {},
+      recommendation: {},
+    },
+    notifiedAt: 1517389988000,
+    notifiedDate: 'a few hours ago',
+    alertId: 'fSH31712163-contacts_filtered-20180131144308',
+    isSystem: false,
+    type: 'contacts_filtered',
+    shortMessage: null,
+  },
+];
+
+const chatTestData = {
+  status: 'none',
+  lastMessage:
+    'Hello, I liked your profile as well. It would be good to communicate and get to know each other better. Please feel free to contact me to take this conversation ahead. Warm Regards, Muhammad R',
+  unreadCount: 1,
+  profile: {
+    se: '24f7f0a67b39ee9febda7331369a8598',
+    uid: 'rSH92548857',
+    name: 'Muhammad Rayan',
+    slug: 'rSH92548857',
+    thumbnail: 'https://img1.shaadi.com//2018/01/05/rSH92548857-dfbed7-male.webp',
+    photo: 'https://img1.shaadi.com//2018/01/05/rSH92548857-91f38f-male.webp',
+    fullPhoto: 'https://img1.shaadi.com//2018/01/05/rSH92548857-1fab60-male.webp',
+    thumbnailBlur: 'https://img1.shaadi.com//2018/01/05/rSH92548857-dfbed7-male.webp',
+    photoBlur: 'https://img1.shaadi.com//2018/01/05/rSH92548857-91f38f-male.webp',
+    fullPhotoBlur: 'https://img1.shaadi.com//2018/01/05/rSH92548857-1fab60-male.webp',
+    userHandle: 'SH92548857',
+    gender: 'Male',
+    marital_status: 'Never Married',
+    connectMessages: [],
+    contact: {},
+    horoscopeScore: {},
+    flags: {
+      membershipLevel: 'PremiumPlus',
+      membershipTags: 'platinum_plus',
+      isBoldListing: true,
+      isDeleted: false,
+      connectionStatus: 'hidden',
+      connectionAction: 'member_hidden',
+      connectionNote: null,
+      contactStatus: null,
+      contactAction: null,
+      horoscopeStatus: null,
+      horoscopeStyle: 'l/ENG/hs/1',
+      albumStatus: 'default',
+      isWatermarked: true,
+      isTwoWayMatch: false,
+      activeStatus: 'default',
+      isNri: false,
+      isIndianDiaspora: true,
+      isHoroscopeApplicable: false,
+      isFamilyGamified: false,
+      isAstroReady: false,
+      isSameGender: false,
+      canCancelInvite: true,
+      canRemind: false,
+      canUnblock: false,
+      isHidden: false,
+      isBothPartyPayUser: false,
+      isNameLocked: false,
+      isFiltered: false,
+      isSkipped: false,
+      isProfileViewed: false,
+    },
+    base: {
+      infoMap: [
+        {
+          key: 'info-0',
+          label: 'Age / Height',
+          value: '29, 5\' 10"',
+        },
+        {
+          key: 'info-1',
+          label: 'Religion/Community',
+          value: 'Muslim, Sunni',
+        },
+        {
+          key: 'info-2',
+          label: 'Mother Tounge',
+          value: 'Urdu',
+        },
+        {
+          key: 'info-3',
+          label: 'Profession',
+          value: 'Finance Professional',
+        },
+        {
+          key: 'info-4',
+          label: 'Location',
+          value: 'Rahimyar Khan, Pakistan',
+        },
+      ],
+      infoList: [
+        {
+          key: 'age-height',
+          value: '29 yrs, 5\' 10", Muslim, Urdu',
+        },
+        {
+          key: 'profession',
+          value: 'Finance Professional',
+        },
+        {
+          key: 'location',
+          value: 'Lives in Rahimyar Khan, Pakistan',
+        },
+        {
+          key: 'grew up in',
+          value: 'Grew up in Pakistan',
+        },
+      ],
+      miniNriList: [
+        {
+          key: 'age-height',
+          value: '29 yrs, 5\' 10", Muslim, Urdu',
+        },
+        {
+          key: 'grew up in',
+          value: 'Grew up in Pakistan',
+        },
+        {
+          key: 'location',
+          value: 'Lives in Rahimyar Khan, Pakistan',
+        },
+      ],
+      miniList: [
+        {
+          key: 'age-height',
+          value: '29 yrs, 5\' 10", Muslim, Urdu',
+        },
+        {
+          key: 'religion-caste',
+          value: 'Sunni',
+        },
+        {
+          key: 'location',
+          value: 'Lives in Rahimyar Khan, Pakistan',
+        },
+      ],
+      detailList: [
+        {
+          key: 'age-height',
+          value: '29, 5\' 10"',
+        },
+        {
+          key: 'religion-caste',
+          value: 'Muslim, Sunni',
+        },
+        {
+          key: 'profession',
+          value: 'Finance Professional',
+        },
+        {
+          key: 'location',
+          value: 'Rahimyar Khan, Pakistan',
+        },
+      ],
+      premiumInfo: [
+        {
+          key: 'age-height',
+          value: '29 yrs, 5\' 10", Muslim, Urdu',
+        },
+        {
+          key: 'location',
+          value: 'Rahimyar Khan, Pakistan',
+        },
+      ],
+    },
+    presence: null,
+    summary: {
+      shortBio: 'Im upper middle class family. .',
+      createdBy: 'Self',
+      profileCreatedBy: 'Self',
+      shortlistCount: -1,
+      infoMap: [
+        {
+          key: 'age_height',
+          label: 'Age / Height',
+          value: '29, 5\' 10"',
+        },
+        {
+          key: 'religion',
+          label: 'Religion',
+          value: 'Muslim',
+        },
+        {
+          key: 'mother_tongue',
+          label: 'Mother Tongue',
+          value: 'Urdu',
+        },
+        {
+          key: 'community',
+          label: 'Community',
+          value: 'Sunni',
+        },
+        {
+          key: 'location',
+          label: 'Location',
+          value: 'Rahimyar Khan, Pakistan',
+        },
+        {
+          key: 'education',
+          label: 'Education',
+          value: 'Masters - Finance',
+        },
+        {
+          key: 'profession',
+          label: 'Profession',
+          value: 'Finance Professional',
+        },
+      ],
+      infoMapNonIndian: [
+        {
+          key: 'age_height',
+          label: 'Age / Height',
+          value: '29, 5\' 10"',
+        },
+        {
+          key: 'religion',
+          label: 'Religion',
+          value: 'Muslim',
+        },
+        {
+          key: 'mother_tongue',
+          label: 'Mother Tongue',
+          value: 'Urdu',
+        },
+        {
+          key: 'location_nri_info',
+          label: 'Location',
+          value: 'Rahimyar Khan,Punjab, Pakistan',
+        },
+        {
+          key: 'info-6',
+          label: 'Grew up in',
+          value: 'Pakistan',
+        },
+        {
+          key: 'education',
+          label: 'Education',
+          value: 'Masters - Finance',
+        },
+        {
+          key: 'profession',
+          label: 'Profession',
+          value: 'Finance Professional',
+        },
+      ],
+      infoMapIndian: [
+        {
+          key: 'age_height_list',
+          label: 'Age / Height',
+          value: '29 yrs, 5\' 10"',
+        },
+        {
+          key: 'marital_status',
+          label: 'Marital Status',
+          value: 'Never Married',
+        },
+        {
+          key: 'religion_caste_list',
+          label: 'Religion',
+          value: 'Muslim, Sunni',
+        },
+        {
+          key: 'location',
+          label: 'Location',
+          value: 'Rahimyar Khan, Pakistan',
+        },
+        {
+          key: 'mother_tongue',
+          label: 'Mother Tongue',
+          value: 'Urdu',
+        },
+        {
+          key: 'profession',
+          label: 'Profession',
+          value: 'Finance Professional',
+        },
+      ],
+      infoMapNri: [
+        {
+          key: 'age_height_list',
+          label: 'Age / Height',
+          value: '29 yrs, 5\' 10"',
+        },
+        {
+          key: 'profession',
+          label: 'Profession',
+          value: 'Finance Professional',
+        },
+        {
+          key: 'religion_mother_tongue_list',
+          label: 'Mother Tongue',
+          value: 'Muslim, Urdu',
+        },
+        {
+          key: 'location_nri_info_list',
+          label: 'Location',
+          value: 'Lives in Rahimyar Khan,Punjab, Pakistan',
+        },
+        {
+          key: 'education',
+          label: 'Education',
+          value: 'Masters - Finance',
+        },
+        {
+          key: 'grew_up_in_info',
+          label: 'Grew up in',
+          value: 'Grew up in Pakistan',
+        },
+      ],
+    },
+    detailed: null,
+    tempId: '',
+    fullName: 'Muhammad Rayan',
+    firstName: 'Muhammad',
+    lastName: 'Rayan',
+    location: 'Rahimyar Khan, Pakistan',
+    photos: {
+      count: 4,
+      photos: [
+        {
+          domain_name: 'https://img1.shaadi.com',
+          small: '/2018/01/05/rSH92548857-eb46fd-male.jpg',
+          medium: '/2018/01/05/rSH92548857-423461-Male.jpg',
+          semilarge: '/2018/01/05/rSH92548857-1fab60-male.jpg',
+          status: 'Y',
+          photo_order: 0,
+          profile_photo: true,
+          '120X120': '/2018/01/05/rSH92548857-dfbed7-male.webp',
+          '250X310': '/2018/01/05/rSH92548857-1fab60-male.webp',
+          '450X600': '/2018/01/05/rSH92548857-91f38f-male.webp',
+          small_nb: '/2018/01/05/rSH92548857-eb46fd-male.jpg',
+          domain_name_nb: 'https://img1.shaadi.com',
+          medium_nb: '/2018/01/05/rSH92548857-423461-Male.jpg',
+          semilarge_nb: '/2018/01/05/rSH92548857-1fab60-male.jpg',
+          '120X120_nb': '/2018/01/05/rSH92548857-dfbed7-male.webp',
+          '250X310_nb': '/2018/01/05/rSH92548857-1fab60-male.webp',
+          '450X600_nb': '/2018/01/05/rSH92548857-91f38f-male.webp',
+          isProfilePhoto: true,
+          isPhotoScreened: true,
+          isPhotoUnderScreening: false,
+          isProfilePhotoScreened: true,
+          isPhotoRejected: false,
+          canMakeProfilePhoto: false,
+          canShowPhotoOpts: true,
+          isGroupPhoto: false,
+          isPhotoOptsOpen: false,
+          getPhotoName: 'Profile Photo',
+          getUrlForAlbumPage: 'https://img1.shaadi.com/2018/01/05/rSH92548857-423461-Male.jpg',
+        },
+      ],
+      status: 'show_photo',
+    },
+    request: {},
+    recommendation: {},
+  },
+  uid: 'rSH92548857',
+  id: 'connect-rSH92548857-4SH32399378-4475-1278-1517381130',
+  sentAt: 1517381130000,
+  from: 'rSH92548857',
+  to: '4SH32399378',
+  lastMessageDate: '12:15PM',
+  lastMessageT: 1517381130000,
+  order: 0,
+};
+const factory = {
+  items,
+  chatTestData,
+};
+
+it('should export theDefaultState, payloadProps', () => {
+  expect(Object.keys(factory).length).toEqual(2);
+});
+
+export default factory;

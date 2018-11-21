@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="95px" viewBox="0 0 83 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M31,0 L61.9988451,9.70895467 L61.9988451,48.1316319 C61.9988451,48.1316319 62.6745603,64.1082245 31.3373204,78.2153846 C31.3373204,78.2153846 3.71659477,68.3574939 0,48.8113887 L0,9.87887364 L31,0 Z" id="path-1"></path>
+        <filter x="-21.8%" y="-17.3%" width="143.5%" height="134.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.227977808 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Verified-Aadhar-Shield" transform="translate(11.000000, 8.000000)">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#89CC64" stroke-width="6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group" transform="translate(9.000000, 10.000000)">
+                <path d="M21.8589744,0 L43.7171343,7.23706882 L43.7171343,35.8773878 C43.7171343,35.8773878 44.1936002,47.786363 22.0968285,58.3018605 C22.0968285,58.3018605 2.6206758,50.9537746 0,36.3840795 L0,7.36372666 L21.8589744,0 Z" id="Shape" stroke="#89CC64" fill="#89CC64"></path>
+                <path d="M22.4153846,5.21940466 L40.7039737,11.1074434 L40.7039737,36.1676443 C40.7039737,36.1676443 38.38197,46.904428 22.4153846,54.9736132 C22.4153846,54.9736132 22.4153846,38.388877 22.4153846,5.21940466 Z" id="Shape" fill="#529D28"></path>
+            </g>
+        </g>
+    </g>
+</svg>

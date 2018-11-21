@@ -1,0 +1,516 @@
+import React from 'react';
+
+const goldProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '50% off',
+  duration: (
+    <React.Fragment>
+      <span>3 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: true,
+  isSelected: false,
+  name: 'Gold',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 742,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 4450,
+  productCode: 'SSP_G3',
+  revampPage: false,
+  saleprice: 2225,
+  tagName: '',
+  topAmountProps: {
+    amount: 2225,
+    currency: 'INR',
+  },
+};
+const goldPlusProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '55% off',
+  duration: (
+    <React.Fragment>
+      <span>3 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: true,
+  isSelected: false,
+  name: 'Gold Plus',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 833,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 5550,
+  productCode: 'SSP_GPlus',
+  revampPage: false,
+  saleprice: 2497,
+  tagName: '',
+  topAmountProps: {
+    amount: 2497,
+    currency: 'INR',
+  },
+};
+const diamondProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '55% off',
+  duration: (
+    <React.Fragment>
+      <span>6 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: true,
+  isSelected: false,
+  name: 'Diamond',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 491,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 6550,
+  productCode: 'SSP_D6',
+  revampPage: false,
+  saleprice: 2947,
+  tagName: '',
+  topAmountProps: {
+    amount: 2947,
+    currency: 'INR',
+  },
+};
+const diamondPlusProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '60% off',
+  duration: (
+    <React.Fragment>
+      <span>6 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: true,
+  isSelected: false,
+  name: 'Diamond Plus',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 577,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 8650,
+  productCode: 'SSP_DPlus',
+  revampPage: false,
+  saleprice: 3460,
+  tagName: 'top_seller',
+  topAmountProps: {
+    amount: 3460,
+    currency: 'INR',
+  },
+};
+const platinumPlusProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '60% off',
+  duration: (
+    <React.Fragment>
+      <span>12 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: true,
+  isSelected: false,
+  name: 'Platinum Plus',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 488,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 14650,
+  productCode: 'SSP_PPlus',
+  revampPage: false,
+  saleprice: 5860,
+  tagName: 'best_value',
+  topAmountProps: {
+    amount: 5860,
+    currency: 'INR',
+  },
+};
+const yourPlanProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '55% off',
+  duration: (
+    <React.Fragment>
+      <span>3 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: true,
+  isSelected: true,
+  name: 'Gold Plus',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 833,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 5550,
+  productCode: 'SSP_GPlus',
+  revampPage: false,
+  saleprice: 2497,
+  tagName: 'your_plan',
+  topAmountProps: {
+    amount: 2497,
+    currency: 'INR',
+  },
+};
+const selectThreeMonthProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '55% off',
+  duration: (
+    <React.Fragment>
+      <span>3 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: false,
+  isSelected: false,
+  name: 'select 3',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 29500,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 29500,
+  productCode: 'PP_SP1',
+  revampPage: false,
+  saleprice: 29500,
+  tagName: '',
+  topAmountProps: {
+    amount: 9834,
+    currency: 'INR',
+  },
+};
+const selectSixMonthProps = {
+  btnloading: false,
+  currency: 'INR',
+  discountDetails: '',
+  discountText: '55% off',
+  duration: (
+    <React.Fragment>
+      <span>6 months</span>
+    </React.Fragment>
+  ),
+  errorMsg: '',
+  handleClick: () => null,
+  isPremiumProduct: false,
+  isSelected: true,
+  name: 'select 6',
+  offerType: 'perc',
+  perMonthAmtProps: {
+    amount: 51500,
+    currency: 'INR',
+  },
+  placeCart: () => null,
+  price: 51500,
+  productCode: 'PP_SP6',
+  revampPage: false,
+  saleprice: 51500,
+  tagName: '',
+  topAmountProps: {
+    amount: 8584,
+    currency: 'INR',
+  },
+};
+const allProductsProps = {
+  paymentTabsProps: {
+    isPremiumProduct: true,
+    productDetails: {
+      currency: 'INR',
+      currentTime: '1537424553',
+      defaultProduct: 'SSP_GPlus',
+      offerType: 'perc',
+      products: {
+        personalisedProducts: [
+          {
+            allow_discount: false,
+            benefits: [
+              {
+                applicable: false,
+                description: 'Dedicated Relationship Advisor',
+                icon: 'dedicated',
+                new_badge: false,
+                tooltip: '',
+              },
+            ],
+            best_value: false,
+            default_selected: false,
+            discount_code: '',
+            discount_text: '',
+            duration: 3,
+            error_msg: '',
+            name: 'select 3',
+            price: 29500,
+            pricepermonth: 9834,
+            product_code: 'PP_SP1',
+            product_subtext: '3 months',
+            saleprice: 29500,
+            topseller: false,
+            your_plan: false,
+          },
+          {
+            allow_discount: false,
+            benefits: [
+              {
+                applicable: false,
+                description: 'Dedicated Relationship Advisor',
+                icon: 'dedicated',
+                new_badge: false,
+                tooltip: '',
+              },
+            ],
+            best_value: false,
+            default_selected: false,
+            discount_code: '',
+            discount_text: '',
+            duration: 6,
+            error_msg: '',
+            name: 'select 6',
+            price: 51500,
+            pricepermonth: 8584,
+            product_code: 'PP_SP6',
+            product_subtext: '6 months',
+            saleprice: 51500,
+            topseller: false,
+            your_plan: false,
+          },
+        ],
+        premiumProducts: [
+          {
+            allow_discount: true,
+            benefits: [],
+            best_value: false,
+            default_selected: false,
+            discount_code: 'octbd60h2',
+            discount_text: '50% off',
+            duration: 3,
+            error_msg: '',
+            name: 'Gold',
+            price: 4450,
+            pricepermonth: 742,
+            product_code: 'SSP_G3',
+            product_subtext: '3 months',
+            saleprice: 2225,
+            topseller: false,
+            your_plan: false,
+          },
+          {
+            allow_discount: true,
+            benefits: [],
+            best_value: false,
+            default_selected: true,
+            discount_code: 'octbd60h2',
+            discount_text: '55% off',
+            duration: 3,
+            error_msg: '',
+            name: 'Gold Plus',
+            price: 5550,
+            pricepermonth: 833,
+            product_code: 'SSP_GPlus',
+            product_subtext: '3 months',
+            saleprice: 2497,
+            topseller: false,
+            your_plan: false,
+          },
+          {
+            allow_discount: true,
+            benefits: [],
+            best_value: false,
+            default_selected: false,
+            discount_code: 'octbd60h2',
+            discount_text: '55% off',
+            duration: 6,
+            error_msg: '',
+            name: 'Diamond',
+            price: 6550,
+            pricepermonth: 491,
+            product_code: 'SSP_D6',
+            product_subtext: '6 months',
+            saleprice: 2947,
+            topseller: false,
+            your_plan: false,
+          },
+          {
+            allow_discount: true,
+            benefits: [],
+            best_value: false,
+            default_selected: false,
+            discount_code: 'octbd60h2',
+            discount_text: '60% off',
+            duration: 6,
+            error_msg: '',
+            name: 'Diamond Plus',
+            price: 8650,
+            pricepermonth: 577,
+            product_code: 'SSP_DPlus',
+            product_subtext: '6 months',
+            saleprice: 3460,
+            topseller: true,
+            your_plan: false,
+          },
+          {
+            allow_discount: true,
+            benefits: [],
+            best_value: true,
+            default_selected: false,
+            discount_code: 'octbd60h2',
+            discount_text: '60% off',
+            duration: 12,
+            error_msg: '',
+            name: 'Platinum Plus',
+            price: 14650,
+            pricepermonth: 488,
+            product_code: 'SSP_PPlus',
+            product_subtext: '12 months',
+            saleprice: 5860,
+            topseller: false,
+            your_plan: false,
+          },
+        ],
+      },
+      showSkipLink: false,
+      showVip: true,
+      skipProfileId: '',
+      wwwBaseUrl: 'https://www.shaadi.com',
+    },
+    addToCart: () => null,
+    cartResult: {
+      btnloading: false,
+      cartErrorMsg: '',
+    },
+    isRevampPage: true,
+    isPersonalisedFeatures: false,
+  },
+  viewplan: true,
+};
+const allPersonalisedProductsProps = {
+  paymentTabsProps: {
+    isPremiumProduct: false,
+    productDetails: {
+      currency: 'INR',
+      currentTime: '1537424553',
+      defaultProduct: 'SSP_GPlus',
+      offerType: 'perc',
+      products: {
+        personalisedProducts: [
+          {
+            allow_discount: false,
+            benefits: [
+              {
+                applicable: false,
+                description: 'Dedicated Relationship Advisor',
+                icon: 'dedicated',
+                new_badge: false,
+                tooltip: '',
+              },
+            ],
+            best_value: false,
+            default_selected: false,
+            discount_code: '',
+            discount_text: '',
+            duration: 3,
+            error_msg: '',
+            name: 'select 3',
+            price: 29500,
+            pricepermonth: 9834,
+            product_code: 'PP_SP1',
+            product_subtext: '3 months',
+            saleprice: 29500,
+            topseller: false,
+            your_plan: false,
+          },
+          {
+            allow_discount: false,
+            benefits: [
+              {
+                applicable: false,
+                description: 'Dedicated Relationship Advisor',
+                icon: 'dedicated',
+                new_badge: false,
+                tooltip: '',
+              },
+            ],
+            best_value: false,
+            default_selected: false,
+            discount_code: '',
+            discount_text: '',
+            duration: 6,
+            error_msg: '',
+            name: 'select 6',
+            price: 51500,
+            pricepermonth: 8584,
+            product_code: 'PP_SP6',
+            product_subtext: '6 months',
+            saleprice: 51500,
+            topseller: false,
+            your_plan: false,
+          },
+        ],
+        premiumProducts: [],
+      },
+      showSkipLink: false,
+      showVip: true,
+      skipProfileId: '',
+      wwwBaseUrl: 'https://www.shaadi.com',
+    },
+    addToCart: () => null,
+    cartResult: {
+      btnloading: false,
+      cartErrorMsg: '',
+    },
+    isRevampPage: true,
+    isPersonalisedFeatures: false,
+  },
+  viewplan: true,
+  viewPlansHandle: () => null,
+};
+
+const factory = {
+  goldProps,
+  goldPlusProps,
+  diamondProps,
+  diamondPlusProps,
+  platinumPlusProps,
+  yourPlanProps,
+  selectThreeMonthProps,
+  selectSixMonthProps,
+  allProductsProps,
+  allPersonalisedProductsProps,
+};
+export default factory;

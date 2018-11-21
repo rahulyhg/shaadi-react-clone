@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountDropdown Tests should have onContextMenu  and drag events attached to image 1`] = `
+<BrowserRouter>
+  <AccountDropdown
+    accountType="FREE"
+    daysToExpiry={0}
+    expiryDate=""
+    isOpen={false}
+    onAction={[Function]}
+    onContextMenu={[Function]}
+    onDragEnter={[Function]}
+    onDragOver={[Function]}
+    onDragStart={[Function]}
+    onDrop={[Function]}
+    onVisibilityChange={[Function]}
+    plan="Free"
+    settings={
+      Object {
+        "canAccessChat": true,
+        "canConnectWithMessage": false,
+        "canInitiateChat": false,
+        "canSendPasswordOnConnect": false,
+        "canViewCollegeAndEmployer": false,
+        "canViewHoroscope": true,
+        "contactsRemaining": null,
+        "contactsTotal": null,
+        "defaultSearchFormat": "list",
+        "experiments": Object {
+          "near_me": Object {
+            "bucket": "B",
+          },
+          "premium_carousel": Object {
+            "bucket": "A",
+          },
+          "premium_tag": Object {
+            "bucket": "A",
+          },
+          "webCTA_Dec2017": Object {
+            "bucket": "B",
+          },
+        },
+        "expiryDate": "",
+        "gender": "Female",
+        "hasUploadedPhoto": false,
+        "horoscopeStyle": "l/ENG/hs/1",
+        "isAstroGamified": true,
+        "isBothPartyPayUser": false,
+        "isFamilyGamified": true,
+        "isHidden": false,
+        "isIndianDiaspora": true,
+        "isMobileVerified": false,
+        "isNri": false,
+        "isPaidUser": false,
+        "isUnderScreening": false,
+        "membershipTags": "free",
+        "mobileNumber": "9379732670",
+        "offerCode": "octbd60b",
+        "offer_details": Array [
+          Object {
+            "type": "perc",
+            "value": 60,
+          },
+        ],
+        "showUpgradeBanner": true,
+        "showUpgradeLinks": true,
+        "wasPaidUser": false,
+      }
+    }
+    thumbnail={
+      Object {
+        "img": Object {
+          "alt": "User menu",
+          "src": "https://img2.shaadi.com//imgs/my-shaadi/ver2/60-add-ph-female-v2.gif",
+        },
+      }
+    }
+    upgradeType="upgrade"
+  />
+</BrowserRouter>
+`;

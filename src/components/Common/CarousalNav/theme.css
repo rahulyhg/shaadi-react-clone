@@ -1,0 +1,26 @@
+.default.arrow_left{
+    border-radius: 0 70px 70px 0;
+    left:-7px;
+ 
+}
+.default.arrow_right{
+    border-radius: 70px 0 0 70px;
+    right:-7px;
+   
+}
+
+.default{
+   background: rgba(0, 0, 0, 0.15);
+   z-index: 1; 
+   width:35px;
+    height:70px;
+}
+.default:hover,
+.default:focus
+
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+   
+}
+

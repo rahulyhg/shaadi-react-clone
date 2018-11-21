@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b7b7b7;
+        fill-opacity: 0;
+        stroke: #ad2241;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #ad2241;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1_copy_11" data-name="Ellipse 1 copy 11" class="cls-1" cx="22.5" cy="22.5" r="22"/>
+  <path id="Forma_1_copy_17" data-name="Forma 1 copy 17" class="cls-2" d="M1622.71,642.715a0.677,0.677,0,0,1,0-.98l1.47-1.479a0.654,0.654,0,0,1,.96,0l0.07,0.07,3.31,3.627a0.327,0.327,0,0,0,.48,0l8.78-9.224h0.06a0.665,0.665,0,0,1,.97,0l1.47,1.479a0.677,0.677,0,0,1,0,.98h0L1629.21,648.8a0.665,0.665,0,0,1-.97,0l-5.39-5.877Z" transform="translate(-1608.5 -619.5)"/>
+</svg>

@@ -1,0 +1,741 @@
+const paymentProps = {
+  cartPage: {
+    cart: {
+      cartData: {
+        cart_details: {
+          country: 'Canada',
+          currency: 'CAD',
+          discounted_amount: 81,
+          display_currency: 'CAD',
+          duration: 6,
+          id: 121,
+          offer_details: [],
+          price: '147.00',
+          product_code: 'SSP_D6',
+          product_name: 'Diamond',
+        },
+        extra_products: [
+          {
+            amount: 1,
+            description: 'Shaadi Care Donation',
+            name: 'Shaadi Care Donation',
+          },
+        ],
+        mode_of_payment: [
+          {
+            category: 'Credit Card',
+            id: 1,
+            mode: 'Credit Card Online',
+            order_amount: {
+              currency: 'USD',
+              shaadi_care: '1.00',
+              value: 69,
+              type: 'online',
+            },
+          },
+          {
+            category: 'Debit Card',
+            id: 64,
+            mode: 'Debit Card Online',
+            order_amount: {
+              currency: 'INR',
+              shaadi_care: '63.41',
+              value: 4375,
+              type: 'offline',
+            },
+          },
+          {
+            category: 'Net banking',
+            id: 4,
+            mode: 'Bill Desk',
+            order_amount: {
+              currency: 'INR',
+              shaadi_care: '63.41',
+              value: 4375,
+              type: 'offline',
+            },
+          },
+          {
+            category: 'Doorstep Collection',
+            id: 21,
+            mode: 'Cheque/Demand Draft Pickup',
+            order_amount: {
+              currency: 'INR',
+              shaadi_care: '63.41',
+              value: 4375,
+              type: 'offline',
+            },
+          },
+          {
+            category: 'Payment at Bank',
+            id: 34,
+            mode: 'Cash at ICICI Bank',
+            order_amount: {
+              currency: 'INR',
+              shaadi_care: '63.41',
+              value: 4375,
+              type: 'offline',
+            },
+          },
+          {
+            category: 'Shaadi.com Centre',
+            id: 23,
+            mode: 'Shaadi.com Collection Centre',
+            order_amount: {
+              currency: 'INR',
+              shaadi_care: '63.41',
+              value: 4375,
+              type: 'offline',
+            },
+          },
+        ],
+        customer_details: {
+          name: 'Test User',
+          mobile: '+91-9999999999',
+          city: 'Mumbai',
+          ip: '203.197.78.162',
+        },
+        settings: {
+          ccConvertedAmount: {
+            currency: 'USD',
+            value: 119,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          dcConvertedAmount: {
+            currency: 'USD',
+            value: 71,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          paypalConvertedAmount: {
+            currency: 'USD',
+            value: 71,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          netBankingConvertedAmount: {
+            currency: 'INR',
+            value: 71,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          payAtDoorConvertedAmount: {
+            currency: 'INR',
+            value: 71,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          paymentAtBankConvertedAmount: {
+            currency: 'INR',
+            value: 71,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          shaadiCenterConvertedAmount: {
+            currency: 'INR',
+            value: 71,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          cashPaymentConvertedAmount: {
+            currency: 'INR',
+            value: 71,
+            shaadi_care: 3,
+            spotlight: 145,
+          },
+          discountedPrice: 0,
+          isCreditCardMop: true,
+          isDebitCardMop: true,
+          isPaypalMop: true,
+          isNetBankingMop: true,
+          isPayAtDoorStepMop: true,
+          isPaymentAtBankMop: true,
+          isShaadiCentreMop: true,
+          isCashPaymentMop: true,
+          isPersonalisedPlan: false,
+          isProfileBooster: true,
+          isShaadiCare: true,
+          offerDiscountAmount: 0,
+          offerDiscountPerc: 0,
+          price: 437,
+          profileBoosterAmount: 145,
+          shaadiCareAmount: 3,
+          yourPrice: 437,
+          mopIds: {
+            creditCardId: 1,
+            debitCardId: 64,
+            paypalId: 73,
+            netBankingId: 4,
+            payAtDoorStepId: 21,
+            paymentAtBankId: 34,
+            shaadiCenterId: 23,
+            cashPaymentId: 78,
+          },
+        },
+      },
+    },
+    bankList: {
+      otherBanks: [
+        {
+          bank_name: 'State Bank of India',
+          bank_code: 'SBI',
+          vendor: 'bill desk',
+        },
+      ],
+      topBanks: [
+        {
+          bank_name: 'State Bank of India',
+          bank_code: 'SBI',
+          vendor: 'bill desk',
+        },
+      ],
+    },
+    doorStep: {
+      frequentlyUsedCities: [
+        {
+          display_name: 'Abohar',
+          city_name: 'Abohar',
+          new: 'N',
+          frequently_use: 0,
+          status: 'Y',
+        },
+      ],
+      moreCities: [
+        {
+          display_name: 'Abohar',
+          city_name: 'Abohar',
+          new: 'N',
+          frequently_use: 0,
+          status: 'Y',
+        },
+      ],
+    },
+    shaadiCenters: {
+      cities: ['Indore', 'Mumbai'],
+      centers: [
+        {
+          id: 157,
+          type: 'SCC',
+          country: 'India',
+          state: 'Delhi',
+          city: 'New Delhi',
+          address1: 'C10 / 2nd flr, Lajpat Nagar - 2,',
+          address2: 'Adjacent to lajpat nager metro station & Bikaner Wala,',
+          address3: 'New Delhi - 110024',
+          title: 'Shaadi.com office',
+          payment_mode: '',
+          no: '+91 - 7065568042 / 8860237470',
+          contact_person: 'Jogender ',
+          timing: '',
+          status: 'Y',
+        },
+      ],
+    },
+    uaeCities: {
+      cities: ['Abu Dhabi', 'Dubai'],
+      centers: [
+        {
+          id: 157,
+          type: 'SCC',
+          country: 'United Arab Amirates',
+          state: '',
+          city: 'Abu Dhabi',
+          address1: 'test',
+          address2: 'test',
+          address3: 'test',
+          title: '',
+          payment_mode: '',
+          no: 'Tel: +971-6-7424666, Speed Dial: 21',
+          contact_person: '',
+          timing: '',
+          status: 'Y',
+        },
+      ],
+    },
+    otpGeneration: {
+      attempt: 0,
+      errorMsg: '',
+      loading: true,
+    },
+    otpVerification: {
+      success: false,
+      errorMsg: '',
+      loading: true,
+    },
+    verifiedMobile: {
+      isVerifiedMobile: true,
+      mobile: '9797979797',
+      country: 'India',
+      countryCode: '+91',
+    },
+    orderId: {
+      errorMsg: '',
+      id: '',
+      loading: true,
+    },
+  },
+  accessToken: '',
+  cartPageExperiment: 'A',
+  otpPageExperiment: 'A',
+  profileBoosterAB: 'A',
+  juspayAB: 'A',
+  juspayNetBankingAB: 'A',
+};
+const modeofPaymentProps = {
+  finalAmount: 0,
+  currency: '',
+  juspayAB: 'A',
+  juspayNetBankingAB: 'A',
+  settings: {
+    isCreditCardMop: false,
+    isDebitCardMop: false,
+    isPaypalMop: false,
+    isNetBankingMop: false,
+    isPayAtDoorStepMop: false,
+    isPaymentAtBankMop: false,
+    isShaadiCentreMop: false,
+    isCashPaymentMop: false,
+    ccConvertedAmount: {},
+    dcConvertedAmount: {},
+    paypalConvertedAmount: {},
+    netBankingConvertedAmount: {},
+    payAtDoorConvertedAmount: {},
+    paymentAtBankConvertedAmount: {},
+    shaadiCenterConvertedAmount: {},
+    cashPaymentConvertedAmount: {},
+    mopIds: {
+      creditCardId: 1,
+      debitCardId: 64,
+      paypalId: 73,
+      netBankingId: 4,
+      payAtDoorStepId: 21,
+      paymentAtBankId: 34,
+      shaadiCenterId: 23,
+      cashPaymentId: 78,
+    },
+  },
+  cardNum: '',
+  cvv: '',
+  cardHolderName: '',
+  cardMonth: '',
+  cardYear: '',
+  cardImage: '',
+  formErrors: {
+    cardNum: '',
+    cvv: '',
+    cardHolderName: '',
+    cardMonth: '',
+    cardYear: '',
+    city: '',
+    contactPersonName: '',
+    personPhoneNo: '',
+    address: '',
+    centre: '',
+    bankName: '',
+  },
+  isShaadiCareChecked: true,
+  isProfileBoosterChecked: false,
+  isSymbolCodeCurrency: false,
+  isVisibleLoader: false,
+  payatDoorStepFormfield: {
+    city: '',
+    contactPersonName: '',
+    personPhoneNo: '',
+    address: '',
+  },
+  paymentAtBankFormfield: {
+    contactPersonName: '',
+    personPhoneNo: '',
+  },
+  shaadiCentreFormfield: {
+    city: '',
+    shaadiCentre: '',
+  },
+  uaeCentreFormfield: {
+    city: '',
+    uaeCentre: '',
+  },
+  otpVerificationFormfield: {
+    otpVal1: '',
+    otpVal2: '',
+    otpVal3: '',
+    otpVal4: '',
+  },
+  bankList: {
+    otherBanks: [
+      {
+        bank_name: 'State Bank of India',
+        bank_code: 'SBI',
+        vendor: 'bill desk',
+      },
+    ],
+    topBanks: [
+      {
+        bank_name: 'State Bank of India',
+        bank_code: 'SBI',
+        vendor: 'bill desk',
+      },
+    ],
+  },
+  doorStepCityList: {
+    frequentlyUsedCities: [
+      {
+        display_name: 'Abohar',
+        city_name: 'Abohar',
+        new: 'N',
+        frequently_use: 0,
+        status: 'Y',
+      },
+    ],
+    moreCities: [
+      {
+        display_name: 'Abohar',
+        city_name: 'Abohar',
+        new: 'N',
+        frequently_use: 0,
+        status: 'Y',
+      },
+    ],
+  },
+  shaadiCentersCityList: {
+    cities: ['Indore', 'Mumbai', 'New Delhi'],
+    centers: [
+      {
+        id: 157,
+        type: 'SCC',
+        country: 'India',
+        state: 'Delhi',
+        city: 'New Delhi',
+        address1: 'C10 / 2nd flr, Lajpat Nagar - 2,',
+        address2: 'Adjacent to lajpat nager metro station & Bikaner Wala,',
+        address3: 'New Delhi - 110024',
+        title: 'Shaadi.com office',
+        payment_mode: '',
+        no: '+91 - 7065568042 / 8860237470',
+        contact_person: 'Jogender ',
+        timing: '',
+        status: 'Y',
+      },
+      {
+        id: 158,
+        type: 'SCC',
+        country: 'India',
+        state: 'Delhi',
+        city: 'New Delhi',
+        address1: 'C10 / 2nd flr, Lajpat Nagar - 2,',
+        address2: 'Adjacent to lajpat nager metro station & Bikaner Wala,',
+        address3: 'New Delhi - 110024',
+        title: 'Shaadi.com office',
+        payment_mode: '',
+        no: '+91 - 7065568042 / 8860237470',
+        contact_person: 'Jogender ',
+        timing: '',
+        status: 'Y',
+      },
+    ],
+  },
+  uaeCentersCityList: {
+    cities: ['Abu Dhabi', 'Dubai'],
+    centers: [
+      {
+        id: 157,
+        type: 'SCC',
+        country: 'United Arab Amirates',
+        state: '',
+        city: 'Abu Dhabi',
+        address1: 'test',
+        address2: 'test',
+        address3: 'test',
+        title: '',
+        payment_mode: '',
+        no: 'Tel: +971-6-7424666, Speed Dial: 21',
+        contact_person: '',
+        timing: '',
+        status: 'Y',
+      },
+    ],
+  },
+  otpGenerationData: {
+    attempt: 0,
+    errorMsg: '',
+    loading: true,
+  },
+  otpVerificationData: {
+    success: false,
+    errorMsg: '',
+    loading: true,
+  },
+  otpVerification: false,
+  shouldVerifyOtp: false,
+  cartId: 123456,
+  accessToken: '96DA2F590CD7246BBDE0051047B0D6F71522401081',
+  bankName: '',
+  selectedBank: '',
+  cartPageExperiment: 'A',
+  types: [
+    {
+      category: 'Credit Card',
+      id: 1,
+      mode: 'Credit Card Online',
+      order_amount: {},
+      type: 'online',
+    },
+  ],
+  customerDetails: {
+    mobile: '9737666147',
+    name: 'Chirag Patel',
+  },
+  verifiedMobile: {
+    isVerifiedMobile: true,
+    mobile: '9737666147',
+    country: 'India',
+    countryCode: 'IN',
+  },
+  modeOfPayment: [
+    {
+      category: 'Online',
+      id: 1,
+      mode: 'Credit Card',
+      order_amount: {},
+    },
+  ],
+  orderId: {
+    errorMsg: '',
+    id: '',
+    loading: true,
+  },
+};
+
+const orderSummaryProps = {
+  cartInfo: {
+    country: 'United Arab Emirates',
+    currency: 'AED',
+    discounted_amount: '',
+    display_currency: 'AED',
+    duration: 6,
+    id: 151454003135539,
+    offer_details: [],
+    price: '437.00',
+    product_code: 'SSP_D6',
+    product_name: 'Diamond Membership',
+  },
+  finalAmount: 440,
+  isProfileBoosterChecked: false,
+  isShaadiCareChecked: true,
+  settings: {
+    ccConvertedAmount: {
+      currency: 'USD',
+      value: 119,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    dcConvertedAmount: {
+      currency: 'USD',
+      value: 71,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    paypalConvertedAmount: {
+      currency: 'USD',
+      value: 71,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    netBankingConvertedAmount: {
+      currency: 'INR',
+      value: 71,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    payAtDoorConvertedAmount: {
+      currency: 'INR',
+      value: 71,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    paymentAtBankConvertedAmount: {
+      currency: 'INR',
+      value: 71,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    shaadiCenterConvertedAmount: {
+      currency: 'INR',
+      value: 71,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    cashPaymentConvertedAmount: {
+      currency: 'INR',
+      value: 71,
+      shaadi_care: 3,
+      spotlight: 145,
+    },
+    discountedPrice: 0,
+    isCreditCardMop: true,
+    isDebitCardMop: true,
+    isPaypalMop: false,
+    isNetBankingMop: false,
+    isPayAtDoorStepMop: false,
+    isPaymentAtBankMop: false,
+    isShaadiCentreMop: false,
+    isCashPaymentMop: false,
+    isPersonalisedPlan: false,
+    isProfileBooster: true,
+    isShaadiCare: true,
+    offerDiscountAmount: 0,
+    offerDiscountPerc: 0,
+    price: 437,
+    profileBoosterAmount: 145,
+    shaadiCareAmount: 3,
+    yourPrice: 437,
+  },
+  profileBoosterAB: 'A',
+};
+const shaadiCareBoxProps = {
+  currency: '',
+  displayAmount: 0,
+  isShaadiCareChecked: false,
+  profileBoosterAB: 'A',
+};
+const profileBoosterBoxProps = {
+  currency: '',
+  displayAmount: 0,
+  isProfileBoosterChecked: false,
+  profileBoosterAB: 'B',
+};
+const topBandProps = {
+  currency: '',
+  offerDiscountPerc: 0,
+  offerDiscountAmount: 0,
+  offerDiscountedPercPrice: 0,
+};
+const totalPayableProps = {
+  isSymbolCodeCurrency: false,
+  currency: '',
+  amount: 0,
+  approxCurrency: '',
+  approxAmount: 0,
+  buttonName: '',
+  buttonText: 'Pay Now',
+  isVisibleLoader: true,
+  isShaadiCareChecked: false,
+  isProfileBoosterChecked: false,
+};
+const cartSubmitProps = {
+  cartId: 123456,
+  accessToken: '',
+  mopId: 1,
+  mopName: '',
+};
+const otpVerificationProps = {
+  isSymbolCodeCurrency: false,
+  currency: '',
+  amount: 0,
+  approxCurrency: '',
+  buttonText: 'Confirm Order',
+  isVisibleLoader: true,
+  approxAmount: 0,
+  isShaadiCareChecked: false,
+  isProfileBoosterChecked: false,
+  shaadiCare: '',
+  spotlight: '',
+  otpGenerationData: {
+    attempt: 0,
+    errorMsg: '',
+    loading: true,
+  },
+  otpVerificationData: {
+    success: false,
+    errorMsg: '',
+    loading: true,
+  },
+  formErrors: {
+    otp: false,
+  },
+  otpVerificationFormfield: {
+    otpVal1: '',
+    otpVal2: '',
+    otpVal3: '',
+    otpVal4: '',
+  },
+  verifiedMobile: {
+    isVerifiedMobile: true,
+    mobile: '9737666147',
+    country: 'India',
+    countryCode: 'IN',
+  },
+  formFields: {
+    city: 'Mumbai',
+    contactPersonName: 'Chirag Patel',
+    personPhoneNo: '9737666147',
+    address: 'HO',
+  },
+  otpPage: 'payAtBank',
+  cartId: 123456,
+  accessToken: '',
+  mopId: 34,
+  mopName: 'Payment At Bank',
+  cartSubmitProps,
+};
+
+const cardNumberProps = {
+  cardImage: '',
+  cardBrand: '',
+  currency: 'INR',
+  currentTab: 'CreditCard',
+  formErrors: {
+    cardHolderName: '',
+    cardMonth: '',
+    cardNum: '',
+    cardYear: '',
+    cvv: '',
+    trySubmit: '',
+  },
+};
+
+const commonInputJusPayProps = {
+  formErrors: {
+    cardHolderName: '',
+    cardMonth: '',
+    cardNum: '',
+    cardYear: '',
+    cvv: '',
+    trySubmit: '',
+  },
+};
+const featuredProps = {
+  bankName: 'NB_HDFC',
+  lastThree: false,
+};
+
+const factory = {
+  paymentProps,
+  modeofPaymentProps,
+  orderSummaryProps,
+  topBandProps,
+  shaadiCareBoxProps,
+  profileBoosterBoxProps,
+  totalPayableProps,
+  otpVerificationProps,
+  cartSubmitProps,
+  cardNumberProps,
+  commonInputJusPayProps,
+  featuredProps,
+};
+it('should export payment', () => {
+  expect(factory.paymentProps).not.toBeFalsy();
+  expect(factory.modeofPaymentProps).not.toBeFalsy();
+  expect(factory.orderSummaryProps).not.toBeFalsy();
+  expect(factory.shaadiCareBoxProps).not.toBeFalsy();
+  expect(factory.profileBoosterBoxProps).not.toBeFalsy();
+  expect(factory.topBandProps).not.toBeFalsy();
+  expect(factory.totalPayableProps).not.toBeFalsy();
+  expect(factory.otpVerificationProps).not.toBeFalsy();
+  expect(factory.cartSubmitProps).not.toBeFalsy();
+  expect(factory.cardNumberProps).not.toBeFalsy();
+  expect(factory.commonInputJusPayProps).not.toBeFalsy();
+  expect(factory.featuredProps).not.toBeFalsy();
+});
+export default factory;

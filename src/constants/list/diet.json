@@ -1,0 +1,26 @@
+[
+  {
+    "value": "Veg",
+    "label": "Veg"
+  },
+  {
+    "value": "Non-Veg",
+    "label": "Non-Veg"
+  },
+  {
+    "value": "Occasionally Non-Veg",
+    "label": "Occasionally Non-Veg"
+  },
+  {
+    "value": "Eggetarian",
+    "label": "Eggetarian"
+  },
+  {
+    "value": "Jain",
+    "label": "Jain"
+  },
+  {
+    "value": "Vegan",
+    "label": "Vegan"
+  }
+]

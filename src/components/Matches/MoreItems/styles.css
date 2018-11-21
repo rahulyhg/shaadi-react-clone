@@ -1,0 +1,28 @@
+.link{
+    color: #00bcd5;
+    cursor: pointer;
+    display:inline-block; 
+    text-decoration: none;
+   
+}
+
+.linkText{
+    background: url(https://img2.shaadi.com/assests/2018/profile/see-all-arrow.svg) no-repeat center center;
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 56px;
+    margin: 20px auto 10px;
+    display:inline-block;
+}
+
+.NavLink{
+    font: 400 14px/17px Roboto, sans-serif;
+    color: #51505d
+}
+.moreItems{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}

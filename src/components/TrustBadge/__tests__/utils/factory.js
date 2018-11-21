@@ -1,0 +1,68 @@
+const allData = {
+  isDR: true,
+  flags: {
+    isFree: true,
+    isPremium: false,
+    membershipLevel: 'Free',
+    connectionNote: null,
+    connectionError: false,
+    connectionStatus: 'default',
+    connectionAction: 'not_contacted',
+    connectionJustNowText: null,
+    contactAction: 'free',
+    contactStatus: 'available',
+    horoscopeStatus: 'none',
+    loading: 'none',
+    isDeleted: false,
+    isNri: false,
+    isWatermarked: true,
+    isTwoWayMatch: false,
+    isBoldListing: false,
+    canUnblock: false,
+    unblockMessage: null,
+    canUnignore: false,
+    canRemind: false,
+    canCancelInvite: false,
+    isSameGender: false,
+    activeStatus: 'default',
+    isPreferredMatch: false,
+    isConnectLimitExceeded: false,
+    showHistory: false,
+    membershipTags: 'free',
+    isNameLocked: true,
+    canCallSendSMS: true,
+    canSendEmail: true,
+    canSendEmailReminder: false,
+    canSendSMS: false,
+    canViewPhoneNo: false,
+    isPhoneNoViewed: false,
+    isSmsAlreadySent: false,
+    showChatNow: true,
+    showPostOnWall: true,
+    isFiltered: false,
+    isSkipped: false,
+    horoscopeStyle: 'l/undefined/hs/1',
+    albumStatus: 'default',
+    isIndianDiaspora: true,
+    isHoroscopeApplicable: false,
+    isFamilyGamified: true,
+    isAstroReady: false,
+    isHidden: false,
+    isBothPartyPayUser: false,
+  },
+  himHer: 'Him',
+  verification: {
+    count: 3,
+    shield_state: 'GREEN',
+    derived_text: 'Aadhaar, Facebook and Mobile number Verified',
+    verified_proofs: ['Aadhaar Verified', 'Facebook Verified', 'Mobile number Verified'],
+  },
+};
+
+const factory = { allData };
+
+it('should export profiles and props', () => {
+  expect(factory.allData).not.toBeFalsy();
+});
+
+export default factory;

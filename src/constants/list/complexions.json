@@ -1,0 +1,18 @@
+[
+	{
+    "value": "Very Fair",
+    "label": "Very Fair"
+  },
+	{
+    "value": "Fair",
+    "label": "Fair"
+  },
+	{
+    "value": "Wheatish",
+    "label": "Tan"
+  },
+	{
+    "value": "Dark",
+    "label": "Dark"
+  }
+]

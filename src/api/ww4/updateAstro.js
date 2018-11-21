@@ -1,0 +1,42 @@
+export default (
+  uid,
+  {
+    city: city_of_birth,
+    state: state_of_birth,
+    country: country_of_birth,
+    suddha_jadhagam = '',
+    manglik = '',
+    birth_star_nakshatra = '',
+    moon_sign = '',
+  } = {},
+) => ({
+  method: 'put',
+  relative_url: `/astro/${uid}`,
+  body: {
+    data: {
+      details: {
+        city_of_birth,
+        state_of_birth,
+        country_of_birth,
+        // time_of_birth: '',
+        time_quality: '',
+        astro_status: '',
+        prefer_horoscope_matching: '',
+        manglik,
+        suddha_jadhagam,
+        sarpa_dosham: '',
+        kaalsarpa_dosham: '',
+        rahu_dosham: '',
+        ketu_dosham: '',
+        kalathra_dosham: '',
+        birth_star_nakshatra,
+        moon_sign,
+        charan: '',
+        language_format: '',
+        horoscope_style: '',
+        manual_horo_url: '',
+        manual_horo_status: '',
+      },
+    },
+  },
+});

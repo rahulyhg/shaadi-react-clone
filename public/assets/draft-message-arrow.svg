@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Drop-Bx-Arrow" transform="translate(0.000000, 4.000000)">
+            <polygon id="Path-2" fill="#FFFFFF" points="0 8.01757812 6.94372559 0.705078125 8.5 0.252710643 9.60189561 0.252710643 13.5021973 4.62109375 17 8.01757812"></polygon>
+            <path d="M1.39783916,8 L-1.49213975e-13,8 L6.40768547,0.905704163 C6.93010881,0.328786735 7.69644586,0 8.50000027,0 C9.30355467,0 10.0698917,0.328786735 10.5923151,0.905704163 L17,8 L15.6021609,8 L9.85918367,1.6416382 C9.53253979,1.28106557 9.03270496,1.06666667 8.50000027,1.06666667 C7.96718229,1.06666667 7.46724816,1.28115677 7.14105257,1.64137725 L1.39783916,8 Z" id="Combined-Shape" fill="#CDCED1" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

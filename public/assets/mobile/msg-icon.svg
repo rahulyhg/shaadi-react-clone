@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="23px" viewBox="0 0 28 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>closed-envelope</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Inbox-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-94.000000, -56.000000)" fill="#83E1ED">
+            <g id="closed-envelope" transform="translate(94.000000, 56.000000)">
+                <path d="M2,0 L26,0 C27.1045695,-2.02906125e-16 28,0.8954305 28,2 L28,21 C28,22.1045695 27.1045695,23 26,23 L2,23 C0.8954305,23 1.3527075e-16,22.1045695 0,21 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z M3.3099729,5.30507317 L13.5568053,12.3665651 C13.7093256,12.4605814 13.8818026,12.5075516 14.0543554,12.5075516 C14.2269083,12.5075516 14.3993852,12.4605814 14.5519056,12.3665651 L24.6899512,5.30507317 C25.1359024,5.03030894 25.2747642,4.44595122 25,4 C24.7252358,3.55404878 24.1407263,3.41518699 23.6949268,3.6900271 L14.0543554,10.4448849 L4.30507317,3.6900271 C3.85927371,3.41541463 3.27491599,3.5539729 3,4 C2.72515989,4.44587534 2.8639458,5.03030894 3.3099729,5.30507317 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

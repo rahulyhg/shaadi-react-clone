@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+require 'socket'
+
+local = '127.0.0.1'
+mydev = '13.127.53.161'
+app = '13.127.53.161'
+
+domains = (%w[mydev. app. local.]).product(%w[gujarati marathi tamil])
+
+hosts = %Q[
+### SHAADI BEGIN
+#{mydev} mydev.shaadi.com
+#{app} app.shaadi.com
+#{local} local.shaadi.com
+
+#{domains.map{|s, d| "#{binding.local_variable_get(s.length < 1 ? :www : s.sub('.', '').to_sym)} #{s}#{d}shaadi.com" }.join("\n")}
+### SHAADI END
+]
+
+puts "Replacing/Appending the following to /etc/hosts"
+puts
+puts hosts
+
+begin
+  f = File.read('/etc/hosts')
+  File.write('/etc/hosts', f.sub(/### SHAADI BEGIN.*### SHAADI END/mi, "").gsub(/\n{2,100}/, "\n\n") + "\n#{hosts}")
+    puts "\n\nSuccess!"
+rescue Errno::EACCES => _e
+  puts "\n\nFailed.\n\n\n  Usage: sudo bin/#{File.basename(__FILE__)}"
+end
+

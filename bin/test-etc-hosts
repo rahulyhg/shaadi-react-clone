@@ -1,0 +1,46 @@
+#!/usr/bin/env ruby
+require 'socket'
+#
+# www.shaadi.com  -> web server
+# ww4.shaadi.com  ->  Api server
+# s18.shaadi.com    -> Chat Server
+# cha.shaadi.com    -> Openfire Server
+#
+local = '127.0.0.1'
+my = '13.127.53.161'
+app = '13.127.53.161'
+www =  IPSocket::getaddress("www-1584313990.ap-south-1.elb.amazonaws.com")
+ww4 =  IPSocket::getaddress("ww4-1730904125.ap-south-1.elb.amazonaws.com")
+bac =  IPSocket::getaddress("back1-1614529632.ap-south-1.elb.amazonaws.com")
+s18 =  IPSocket::getaddress("s18-1573021008.ap-south-1.elb.amazonaws.com")
+cha =  IPSocket::getaddress("chat-83527428.ap-south-1.elb.amazonaws.com")
+
+domains = (%w[www. my. app. local.] + [""]).product(%w[gujarati marathi tamil punjabi])
+
+hosts = %Q[
+### SHAADI BEGIN
+#{www} www.shaadi.com
+#{ww4} ww4.shaadi.com
+#{s18} s18.shaadi.com
+#{cha} cha.shaadi.com
+#{my} my.shaadi.com
+#{app} app.shaadi.com
+#{local} local.shaadi.com
+#{bac} back1.shaadi.com
+
+#{domains.map{|s, d| "#{binding.local_variable_get(s.length < 1 ? :www : s.sub('.', '').to_sym)} #{s}#{d}shaadi.com" }.join("\n")}
+### SHAADI END
+]
+
+puts "Replacing/Appending the following to /etc/hosts"
+puts
+puts hosts
+
+begin
+  f = File.read('/etc/hosts')
+  File.write('/etc/hosts', f.sub(/### SHAADI BEGIN.*### SHAADI END/mi, "").gsub(/\n{2,100}/, "\n\n") + "\n#{hosts}")
+    puts "\n\nSuccess!"
+rescue Errno::EACCES => _e
+  puts "\n\nFailed.\n\n\n  Usage: sudo bin/#{File.basename(__FILE__)}"
+end
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="55px" viewBox="0 0 45 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>tag1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-23.6%" y="-14.4%" width="144.4%" height="133.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ProfilePg1" transform="translate(-82.000000, -557.000000)" stroke="#95959D" stroke-width="2">
+            <g id="tag1" filter="url(#filter-1)" transform="translate(87.000000, 561.000000)">
+                <g id="Group" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M24.592038,3.99297467 C21.8419499,2.88262472 19.7372907,1.45524862 18.2575825,0.253127935 C17.8419597,-0.0843759784 17.2435539,-0.0843759784 16.8286895,0.253127935 C15.3482229,1.45524862 13.2435637,2.88262472 10.4942341,3.99297467 C6.94930532,5.42414295 3.74188049,5.75861312 1.53938304,5.78743368 C1.0039274,5.7942596 0.555691861,6.19092151 0.477572978,6.72030967 C-0.209569821,11.3672456 -1.5155962,25.7282267 7.97471047,37.1146228 C10.77258,40.4714595 13.8738238,42.8074416 16.6026757,44.4297357 C17.182879,44.774824 17.9018761,44.774824 18.4820795,44.4297357 C21.2116898,42.8082 24.3121752,40.4722179 27.1100447,37.1146228 C36.6018683,25.7282267 35.2950834,11.3672456 34.6086991,6.72030967 C34.5298218,6.19092151 34.0815862,5.7942596 33.546889,5.78743368 C31.3436331,5.75861312 28.1369667,5.42414295 24.592038,3.99297467 Z" id="Shape"></path>
+                </g>
+                <g id="checked-(3)" transform="translate(10.409903, 16.655844)" stroke-linecap="round">
+                    <polyline id="Path-3" points="0 4.97477543 5.69012281 10.4099026 16.6558442 0"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

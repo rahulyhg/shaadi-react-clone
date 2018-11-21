@@ -1,0 +1,113 @@
+export default signUpData => ({
+  data: {
+    PSH02853115: {
+      basic: {
+        gender: signUpData.gender || 'female',
+        date_of_birth: signUpData.dob || '20000101',
+        marital_status: '',
+        first_name: 'Kiran',
+        last_name: 'Roy',
+      },
+      family_details: [],
+      account: {
+        posted_by: signUpData.postedBy,
+        status: 'Incomplete',
+      },
+      metadata: {
+        domain: 'www.shaadi.com',
+      },
+      family: {
+        children: '',
+        no_of_kids: '',
+        father_profession: '',
+        mother_profession: '',
+        brothers_unmarried: '',
+        brothers_married: '',
+        sisters_unmarried: '',
+        sisters_married: '',
+        located: '',
+        type: '',
+        family_income: '',
+        family_values: '',
+      },
+      appearance: {
+        complexion: '',
+        built: '',
+        height: '',
+      },
+      health_info: {
+        special_cases: 'None',
+      },
+      doctrine: {
+        religion: signUpData.religion,
+        caste: '',
+        sub_caste: '',
+        mother_tongue: signUpData.motherTongue,
+        gotra: '',
+        caste_no_bar: '',
+      },
+      'astro-details': {
+        birth_star_nakshatra: '',
+        moon_sign: '',
+        manglik: '',
+        other_dosham: '',
+        suddha_jadhagam: '',
+      },
+      education: {
+        education: '',
+        education_stream: '',
+        college_1: '',
+        education_alias: '',
+        education_field: '',
+      },
+      profession: {
+        occupation: '',
+        working_with: '',
+        employer: '',
+        income: '',
+        industry: '',
+      },
+      lifestyle: {
+        diet: '',
+        drink: '',
+        smoke: '',
+      },
+      location: {
+        country: signUpData.country,
+        state: '',
+        district: '',
+        residency_status: '',
+        zip_code: '',
+        zip_status: '',
+        google_city_id: 0,
+        living_since: '',
+        city: '',
+      },
+      origin: {
+        native_place: '',
+        ethnicity: '',
+        grewup_in: [],
+      },
+      trait: {
+        about_me: '',
+        personality: [],
+      },
+      'contact-details': {
+        mobile_country: 'USA',
+        mobile_isd: '+1',
+        mobile_std: '',
+        mobile: '',
+        tel_std: '',
+        telephone: '',
+        contact_settings: '',
+      },
+      error: {
+        error: 'N',
+        error_page_name: '',
+      },
+      interests_and_more: {
+        interests: [],
+      },
+    },
+  },
+});

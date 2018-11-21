@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer :  Timer Render:  Timer Redirect : Response  1`] = `
+<div>
+  <div>
+    loader
+  </div>
+</div>
+`;
+
+exports[`Timer :  Timer Render:  Timer Redirect : Response  2`] = `
+<div>
+  <div>
+    response!
+  </div>
+</div>
+`;

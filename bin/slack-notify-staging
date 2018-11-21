@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set +e
+set -o noglob
+
+channel="react-team"
+lastMessage=$(git log --oneline -n 1 $CIRCLE_SHA1 | cat)
+text="Deployed ${CIRCLE_BRANCH}: ${lastMessage}"
+if [ "x$1" == "xFAIL" ]; then
+  text="[FAILED] Deployment of ${CIRCLE_BRANCH} has failed."
+fi
+escapedText=$(echo $text | sed 's/"/\"/g' | sed "s/'/\'/g" )
+json="{\"channel\": \"#$channel\", \"text\": \"$escapedText\", \"username\": \"staging-bot\", \"icon_emoji\": \":checkered_flag:\" }"
+
+echo $json
+curl -s -d "payload=$json" https://hooks.slack.com/services/${SLACK_TOKEN}

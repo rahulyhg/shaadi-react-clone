@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.12.0
+   
+    working_directory: ~/shaadi-react
+    steps:
+      - checkout
+      - restore_cache:
+          key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum "package.json" }}
+      - run:
+          name: Install deps
+          command: |
+            python --version
+            cp yarn.lock orig-yarn-lock-file
+            yarn
+            yarn cache dir
+      - save_cache:
+          key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "orig-yarn-lock-file" }}-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: Lint
+          command: yarn lint:ci
+      - run:
+          name: Test
+          command: yarn test:ci
+      - run:
+          name: Build size
+          command: yarn test:size

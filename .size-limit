@@ -1,0 +1,122 @@
+[
+  {
+    path: "build/static/js/*.js",
+    webpack: false,
+    limit: "4 MB"
+  },
+  {
+    path: "build/static/js/main.*.js",
+    webpack: false,
+    limit: "305 KB"
+  },
+  {
+    path: "build/static/js/LayerPartial.*.chunk.js",
+    webpack: false,
+    limit: "275 KB"
+  },
+  {
+    path: "build/static/js/StopPage.responsive.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/MatchesGroupPage.mobile.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/MyPhotos.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/HeaderPartial.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/SearchPartnerPage.mobile.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/SearchPage.mobile.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/SearchPartnerPage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/ProfilePage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/InboxPage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/SearchPage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/ProfilePage.mobile.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/HeaderPartial.mobile.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/DailyRecommendationPage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/DailyRecommendationPage.mobile.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/ProfileCreationPage.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/MatchesGroupPage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/ChatPartial.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/Cart.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/Cart.mobile.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/ContactSummaryPage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  },
+  {
+    path: "build/static/js/PaymentPage.desktop.*.chunk.js",
+    webpack: false,
+    limit: "250 KB"
+  }
+]

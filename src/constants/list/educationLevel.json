@@ -1,0 +1,43 @@
+[
+  {
+    "value": "Doctorate",
+    "label": "Doctorate"
+  },
+  {
+    "value": "Masters",
+    "label": "Masters"
+  },
+  {
+    "value": "Honours degree",
+    "label": "Honours degree"
+  },
+  {
+    "value": "Bachelors",
+    "label": "Bachelors"
+  },
+  {
+    "value": "Undergraduate",
+    "label": "Undergraduate"
+  },
+  {
+    "value": "Associates degree",
+    "label": "Associates degree"
+  },    
+  {
+    "value": "Diploma",
+    "label": "Diploma"
+  },  
+  {
+    "value": "High school",
+    "label": "High school"
+  }, 
+  {
+    "value": "Less than high school",
+    "label": "Less than high school"
+  },
+  {
+    "value": "Trade school",
+    "label": "Trade school"
+  }
+]
+
