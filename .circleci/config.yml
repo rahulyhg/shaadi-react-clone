@@ -21,4 +21,4 @@ jobs:
           
       - run:
           name: ECHO
-          command: ps aux
+          command: sleep 10 & ps aux
