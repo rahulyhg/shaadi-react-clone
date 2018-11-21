@@ -22,8 +22,13 @@ jobs:
             - node_modules
           
       - run:
-          name: start shaadi site
-          command: yarn start
+          name: start shaadi site 1
+          command: yarn start && sleep 5
+          background: true
+          
+      - run:
+          name: start shaadi site 2
+          command: yarn start & sleep 5
           background: true
           
       - run:
