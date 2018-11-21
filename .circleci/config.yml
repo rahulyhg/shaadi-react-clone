@@ -20,9 +20,6 @@ jobs:
           key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "orig-yarn-lock-file" }}-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - run:
-          name: Lint
-          command: yarn lint:ci
           
       - run:
           name: start shaadi site
@@ -31,4 +28,4 @@ jobs:
           
       - run:
           name: ECHO
-          command: echo "hello"
+          command: ps aux
