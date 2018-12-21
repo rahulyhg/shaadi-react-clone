@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
     - image: circleci/node:10.12.0-browsers
-    working_directory: ~/shaadi-react
+    working_directory: ~/shaadi-react/Nightwatch-Web-Testing
     steps:
     - checkout
     - restore_cache:
@@ -33,8 +33,6 @@ jobs:
     - run:
         name: start PP1 regression
         command: ./pp1-regression.sh
-        
-        
         
         
 workflows:
