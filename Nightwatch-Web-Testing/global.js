@@ -36,7 +36,7 @@ module.exports = {
   },
 
   beforeEach : function(browser,done) {
-    browser.windowMaximize();
+    //browser.windowMaximize();
     done();
   },
 
