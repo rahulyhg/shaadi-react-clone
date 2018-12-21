@@ -24,9 +24,11 @@ jobs:
     - run:
         name: start shaadi site
         command: yarn start
+        background: true
     - run:
-        name: ECHO
+        name: start Nightwatch
         command: ps aux
+        when: on_success
 workflows:
   version: 2
   workflow:
