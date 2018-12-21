@@ -17,7 +17,7 @@ jobs:
           
       - run:
           name: start shaadi site 2
-          command: yarn start & echo "hello"
+          command: yarn start
           
       - run:
           name: ECHO
