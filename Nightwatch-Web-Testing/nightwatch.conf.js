@@ -62,6 +62,9 @@ const nwConfig =
           "browserName" : "chrome", 
           "acceptSslCerts": true,
           "javascriptEnabled": true,
+		  "chromeOptions": {
+			"args" : ["--no-sandbox"]
+			}
         },
 
         "screenshots" : {
