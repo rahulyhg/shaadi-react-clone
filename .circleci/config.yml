@@ -30,10 +30,39 @@ jobs:
         name: start shaadi site
         command: yarn start
         background: true
+    
     - run:
-        name: change setting
+        name: wait for shaadi branch
         command:  ./wait-for.sh
         when: on_success
+        
+    - run:
+        name: clone Nightwatch
+        command: git clone https://github.com/peopleGroup/Nightwatch-Web-Testing.git
+        
+    - run:
+        name: Change folder to NW
+        command: cd Nightwatch-Web-Testing
+        
+    - run:
+        name: Install dependency
+        command: yarn install  && mkdir -p Result
+        
+    - run:
+        name: move to batch folder
+        command: cd Monetization/Batch_Execution/
+    
+    - run:
+        name: change PP1 regression
+        command: chmod +x pp1-regression.sh
+        
+    - run:
+        name: start PP1 regression
+        command: ./pp1-regression.sh
+        
+        
+        
+        
 workflows:
   version: 2
   workflow:
