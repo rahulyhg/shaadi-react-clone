@@ -26,8 +26,8 @@ jobs:
         command: yarn start --silent &
         background: true
     - run:
-        name: start Nightwatch
-        command: ps aux
+        name: check if shaddi started
+        command: sleep 5 && curl -s localhost:80 >/dev/null && echo Success. || echo Fail.
         when: on_success
 workflows:
   version: 2
