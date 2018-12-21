@@ -16,7 +16,7 @@ jobs:
         
     - run:
         name: Change folder to NW & install dep
-        command: cd Nightwatch-Web-Testing && yarn install  && mkdir -p Result  && ls      
+        command: cd Nightwatch-Web-Testing && yarn install  && mkdir -p Result  && cd Monetization/Batch_Execution/ &&   chmod +x pp1-regression.sh   && ./pp1-regression.sh
         
     - run:
         name: move to batch folder
