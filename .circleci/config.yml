@@ -15,17 +15,8 @@ jobs:
         command: ls
         
     - run:
-        name: Change folder to NW
-        command: cd Nightwatch-Web-Testing && pwd
-        
-        
-    - run:
-        name: ls
-        command: ls
-        
-    - run:
-        name: Install dependency
-        command: yarn install  && mkdir -p Result
+        name: Change folder to NW & install dep
+        command: cd Nightwatch-Web-Testing && yarn install  && mkdir -p Result        
         
     - run:
         name: ls
