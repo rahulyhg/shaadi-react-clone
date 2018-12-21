@@ -28,7 +28,7 @@ const nwConfig =
 
     "test_settings" : {
       //NOT WORKING
-      "default" : {
+      "not-working" : {
         "webdriver": {
           "port": 9515,
           "default_path_prefix": "",
@@ -57,14 +57,11 @@ const nwConfig =
       },
 
       //CHROME
-      "default123" : {
+      "default" : {
         "desiredCapabilities" : {
           "browserName" : "chrome", 
           "acceptSslCerts": true,
           "javascriptEnabled": true,
-		  "chromeOptions": {
-			"args" : ["--no-sandbox"]
-			}
         },
 
         "screenshots" : {
