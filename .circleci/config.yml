@@ -41,6 +41,10 @@ jobs:
         command: cd Nightwatch-Web-Testing
         
     - run:
+        name: ls
+        command: ls
+        
+    - run:
         name: Install dependency
         command: yarn install  && mkdir -p Result
         
