@@ -21,13 +21,18 @@ jobs:
           }}-{{ checksum "package.json" }}
         paths:
         - node_modules
+        
+    - run:
+        name: change setting
+        command: chmod +x wait-for.sh
+        
     - run:
         name: start shaadi site
         command: yarn start --silent &
         background: true
     - run:
-        name: check if shaddi started
-        command: chmod +x wait-for.sh & ./wait-for.sh
+        name: change setting
+        command:  ./wait-for.sh
         when: on_success
 workflows:
   version: 2
