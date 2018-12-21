@@ -23,7 +23,7 @@ jobs:
         - node_modules
     - run:
         name: start shaadi site
-        command: yarn start
+        command: yarn start --silent &
         background: true
     - run:
         name: start Nightwatch
