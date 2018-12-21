@@ -37,10 +37,6 @@ jobs:
         when: on_success
         
     - run:
-        name: clone Nightwatch
-        command: git clone https://github.com/peopleGroup/Nightwatch-Web-Testing.git
-        
-    - run:
         name: Change folder to NW
         command: cd Nightwatch-Web-Testing
         
