@@ -63,8 +63,8 @@ const nwConfig =
           "acceptSslCerts": true,
           "javascriptEnabled": true,
 		  "chromeOptions": {
-			"args" : ["--no-sandbox"]
-			"args" : ["headless"]
+			//"args" : ["--no-sandbox"]
+			"args" : ["--headless"]
 			}
         },
 
