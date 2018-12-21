@@ -16,8 +16,9 @@ jobs:
         
     - run:
         name: Change folder to NW
-        path: /Nightwatch-Web-Testing
-              
+        command: cd Nightwatch-Web-Testing && pwd
+        
+        
     - run:
         name: ls
         command: ls
