@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
     - image: circleci/node:10.12.0-browsers
-    working_directory: ~/shaadi-react/Nightwatch-Web-Testing
+    working_directory: ~/shaadi-react/Nightwatch-Web-Testing/
     steps:
     - checkout
     - restore_cache:
