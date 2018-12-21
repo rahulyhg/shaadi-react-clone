@@ -16,11 +16,7 @@ jobs:
         
     - run:
         name: Change folder to NW & install dep
-        command: cd Nightwatch-Web-Testing && yarn install  && mkdir -p Result        
-        
-    - run:
-        name: ls
-        command: ls
+        command: cd Nightwatch-Web-Testing && yarn install  && mkdir -p Result  && ls      
         
     - run:
         name: move to batch folder
