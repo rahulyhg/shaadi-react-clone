@@ -28,7 +28,7 @@ jobs:
         
     - run:
         name: start shaadi site
-        command: yarn start --silent &
+        command: yarn start
         background: true
     - run:
         name: change setting
