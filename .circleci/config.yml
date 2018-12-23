@@ -11,27 +11,14 @@ jobs:
         key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum "package.json" }}
 
     - run:
+        name : Execute E2E depending on the branch name
         command: |
-                  echo ${CI_PULL_REQUEST}
-                  echo ${CI}
-                  echo ${CIRCLE_BRANCH}
-                  echo ${CIRCLE_BUILD_URL}
-                  echo ${CIRCLE_JOB}
-                  echo ${CIRCLE_PR_USERNAME}
-                  echo ${CIRCLE_PR_REPONAME}
-                  echo ${CIRCLE_PULL_REQUEST}
-                  echo ${HOME}
-                  echo ${CIRCLE_REPOSITORY_URL}
-                  echo ${CIRCLE_TAG}
-    - run:
-        name: Change folder to NW & install dep
-        command: cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
+                  if [[ "${CIRCLE_BRANCH}" =~ "nwa1s" ]]; then
+	                  cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
+                  fi
 
 workflows:
   version: 2
   workflow:
     jobs:
-    - build:
-        filters:
-          branches:
-            only: /^master/
+    - build
