@@ -10,7 +10,8 @@ jobs:
     - restore_cache:
         key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum "package.json" }}
 
-    - command:
+    - run:
+        command: |
                   echo 'hello'
     - run:
         name: Change folder to NW & install dep
