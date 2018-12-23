@@ -10,6 +10,8 @@ jobs:
     - restore_cache:
         key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum "package.json" }}
 
+    - command:
+                  echo 'hello'
     - run:
         name: Change folder to NW & install dep
         command: cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
@@ -21,4 +23,4 @@ workflows:
     - build:
         filters:
           branches:
-            only: /^nw/
+            only: /^master/
