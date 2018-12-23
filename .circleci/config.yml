@@ -13,7 +13,7 @@ jobs:
     - run:
         name : Execute E2E depending on the branch name
         command: |
-          if [[ "${CIRCLE_BRANCH}" =~ "nwa1s" ]]; then
+          if [[ "${CIRCLE_BRANCH}" =~ "master" ]]; then
             cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
           fi
 workflows:
