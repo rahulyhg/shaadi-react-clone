@@ -1,4 +1,5 @@
 version: 2
+
 jobs:
   build:
     docker:
@@ -7,20 +8,17 @@ jobs:
     steps:
     - checkout
     - restore_cache:
-        key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum
-          "package.json" }}
+        key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum "package.json" }}
 
-  build123:
-    steps:
-      requires:
-        - build  
-      - run:
-          name: Change folder to NW & install dep
-          command: cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
-          
-        
+    - run:
+        name: Change folder to NW & install dep
+        command: cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
+
 workflows:
   version: 2
   workflow:
     jobs:
-    - build123
+    - build:
+        filters:
+          branches:
+            only: /^nw/
