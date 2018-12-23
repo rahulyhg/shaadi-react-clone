@@ -12,7 +12,7 @@ jobs:
 
     - run:
         command: |
-                  echo '$CIRCLE_BRANCH'
+                  echo '${CIRCLE_BRANCH}'
     - run:
         name: Change folder to NW & install dep
         command: cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
