@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  build123:
     docker:
     - image: circleci/node:10.12.0-browsers
     working_directory: ~/shaadi-react/Nightwatch-Web-Testing/
@@ -10,10 +10,6 @@ jobs:
         key: shaadi-react-10.12.0-v1-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum
           "package.json" }}
     
-    - run:
-        name: ls
-        command: ls
-        
     - run:
         name: Change folder to NW & install dep
         command: cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && cd Monetization/Batch_Execution/ && chmod +x pp1-regression.sh && xvfb-run -a ./pp1-regression.sh
