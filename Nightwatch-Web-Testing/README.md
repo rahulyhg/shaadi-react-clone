@@ -1,7 +1,7 @@
 
 # Web Test framework (using Nightwatch) 
 This repository contains nightwatch testing framework for Web UI testing.
-
+.
 Some cool feature are,
 * Easy API to write code than vanilla selenium
 * In-built logger and reporter
