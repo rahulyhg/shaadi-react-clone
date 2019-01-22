@@ -57,6 +57,13 @@ jobs:
           if [[ "${CIRCLE_BRANCH}" =~ "netflix" ]]; then
             cd Nightwatch-Web-Testing && npm install  && mkdir -p Result  && node nightwatch.js netflix.js
           fi
+    
+    - store_artifacts:
+        path: Nightwatch-Web-Testing/Result
+    
+    - store_test_results:
+        path: Nightwatch-Web-Testing/Result
+    
 workflows:
   version: 2
   workflow:
