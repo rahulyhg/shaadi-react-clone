@@ -27,7 +27,6 @@ jobs:
     - run:
           name: Test
           command: yarn test:ci
-          when: on_fail
     
     - run:
         name: change setting
